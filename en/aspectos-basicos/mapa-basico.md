@@ -4,7 +4,7 @@ description: Como añadir un mapa con los ajustes básicos y cosas a tener en cu
 
 # Mapa Básico
 
-Una vez que ya hemos realizado las [instalaciones y configuraciones en el paso anterior](../), vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
+Una vez que ya hemos realizado las instalaciones y configuraciones en el paso anterior, vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
 
 Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin añadir nada más.
 

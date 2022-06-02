@@ -61,7 +61,7 @@ Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
 ```
 {% endcode %}
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](broken-reference).
+Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
 ### Estructura para configuraciones
 

@@ -1,6 +1,6 @@
 # Posición / Textos botones
 
-Ahora que ya [sabemos trabajar con lo básico de los mapas](broken-reference), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
+Ahora que ya [sabemos trabajar con lo básico de los mapas](../aspectos-basicos/mapa-basico.md), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
 
 En este apartado se va a aprender a ubicar el control del zoom en las diferentes opciones y también como habilitar los textos que se asignan a los botones "+" y "-" para aumentar / disminuir el zoom.
 
