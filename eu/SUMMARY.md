@@ -1,14 +1,14 @@
-# Table of contents
+# Edukien taula
 
-* [⚙ Instalación / Configuración](README.md)
-* [📝 Demos / Ejemplos](demos-ejemplos.md)
+* [⚙ Instalazioa / Konfigurazioa](README.md)
+* [📝 Adibideak](demos-ejemplos.md)
 
-## Aspectos Básicos
+## Lehen pausoak
 
-* [Mapa Básico](aspectos-basicos/mapa-basico.md)
-* [Personalizar tamaño](aspectos-basicos/personalizar-tamano.md)
-* [Centrar en ubicación](aspectos-basicos/centrar-en-ubicacion.md)
+* [Mapa arrunta](aspectos-basicos/mapa-basico.md)
+* [Tamaina pertsonalizatu](aspectos-basicos/personalizar-tamano.md)
+* [Erdian kokatu zehaztutako kokapena](aspectos-basicos/centrar-en-ubicacion.md)
 
-## Zoom
+## Zoom-a
 
-* [Posición / Textos botones](zoom/positions-btn-texts.md)
+* [Botoien posizioa / testua](zoom/positions-btn-texts.md)
