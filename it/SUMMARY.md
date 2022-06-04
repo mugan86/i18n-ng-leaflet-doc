@@ -12,3 +12,4 @@
 ## Zoom
 
 * [Posición / Textos botones](zoom/positions-btn-texts.md)
+* [Nivel](zoom/levels.md)
