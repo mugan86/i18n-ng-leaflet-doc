@@ -12,3 +12,4 @@
 ## Zoom-a
 
 * [Botoien posizioa / testua](zoom/positions-btn-texts.md)
+* [Nivel](zoom/levels.md)
