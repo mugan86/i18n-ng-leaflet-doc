@@ -12,4 +12,4 @@
 ## Zoom-a
 
 * [Botoien posizioa / testua](zoom/positions-btn-texts.md)
-* [Nivel](zoom/levels.md)
+* [Maila](zoom/levels.md)
