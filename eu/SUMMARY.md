@@ -1,13 +1,13 @@
 # Edukien taula
 
 * [⚙ Instalazioa / Konfigurazioa](README.md)
-* [📝 Adibideak](demos-ejemplos.md)
+* [📝 Adibideak](adibideak.md)
 
 ## Lehen pausoak
 
-* [Mapa arrunta](aspectos-basicos/mapa-basico.md)
+* [Mapa arrunta](lehen-pausuak/mapa-arrunta.md)
 * [Tamaina pertsonalizatu](aspectos-basicos/personalizar-tamano.md)
-* [Erdian kokatu zehaztutako kokapena](aspectos-basicos/centrar-en-ubicacion.md)
+* [Erdian kokatu zehaztutako kokapena](lehen-pausuak/erdian-kokatu.md)
 
 ## Zoom-a
 
