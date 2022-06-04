@@ -59,7 +59,7 @@ Aplicando en el HTML
 
 Obteniendo el siguiente resultado:
 
-![](../.gitbook/assets/03-zoom-controls.png)
+![](../../.gitbook/assets/03-zoom-controls.png)
 
 Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
 
