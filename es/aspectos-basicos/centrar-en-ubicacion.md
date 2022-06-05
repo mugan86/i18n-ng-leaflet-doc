@@ -53,7 +53,7 @@ Añadiendo la información  en el HTML:
 
 Obteniendo el siguiente resultado:
 
-![](../../.gitbook/assets/02-mapa-center.png)
+![Map in Center](./../../.gitbook/assets/02-mapa-center.png)
 
 Y aquí la demo que podéis usar para probarlo y jugar con ello:
 
