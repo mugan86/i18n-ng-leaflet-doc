@@ -12,7 +12,7 @@ Hasta el momento, si no añadimos esta información utilizará una coordenadas p
 
 Las coordenadas lo tenemos que introducir en la siguiente estructura de la propiedad:
 
-```typescript
+```
 configMap: IConfigMap = {
     center: [number, number],
     // [lat, lng] as  [number, number]
@@ -21,8 +21,7 @@ configMap: IConfigMap = {
 
 Con esta información añadida en el componente:
 
-{% code title="app.componemt.ts" %}
-```typescript
+```
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 import { PLACES_LIST_LOCATIONS } from './locations';
@@ -42,18 +41,15 @@ export class AppComponent {
   };
 }
 ```
-{% endcode %}
 
 Añadiendo la información  en el HTML:
 
-{% code title="app.component.html" %}
-```html
+```
 <ng-leaflet-map
   [mapId]="'center__position'"
   [config]="configMap"
 ></ng-leaflet-map>
 ```
-{% endcode %}
 
 Obteniendo el siguiente resultado:
 
@@ -61,4 +57,5 @@ Obteniendo el siguiente resultado:
 
 Y aquí la demo que podéis usar para probarlo y jugar con ello:
 
-{% embed url="https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark" %}
+[Stackblitz - Centrar en ubicación](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
+
