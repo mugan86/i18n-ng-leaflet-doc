@@ -18,8 +18,7 @@ Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el si
 
 Lo podemos añadir directamente en el template o desde el componente:
 
-{% code title="app.component.ts" %}
-```typescript
+```
 import { Component } from '@angular/core';
 
 @Component({
@@ -32,12 +31,11 @@ export class AppComponent {
   size: SizeMap = { width: '300px', height: '500px' };
 }
 ```
-{% endcode %}
 
 Y aplicando directamente esa configuración en el template y usando el valor de la propiedad:
 
-{% code title="app.component.html" %}
-```html
+
+```
 <ng-leaflet-map
   [mapId]="'basic__custom-size__example'"
   [size]="{ width: '500px', height: '200px' }"
@@ -48,12 +46,11 @@ Y aplicando directamente esa configuración en el template y usando el valor de 
   [size]="size"
 ></ng-leaflet-map>
 ```
-{% endcode %}
 
 Cuyo resultado visual será algo como esto:
 
-![](../../.gitbook/assets/01-mapa-tamaño.png)
+![Map Size](./../../.gitbook/assets/01-mapa-tamaño.png)
 
 Tal y como podremos ver en la siguiente demo.
 
-{% embed url="https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?embed=1&file=src/app/app.component.ts&theme=dark" %}
+[Stackblitz - Personalizando Tamaño](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?embed=1&file=src/app/app.component.ts&theme=dark)
