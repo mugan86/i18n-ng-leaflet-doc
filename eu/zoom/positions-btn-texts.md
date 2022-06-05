@@ -1,19 +1,19 @@
-# Posición / Textos botones
+# Botoien posizioa / testua
 
 Ahora que ya [sabemos trabajar con lo básico de los mapas](../aspectos-basicos/mapa-basico.md), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
 
 En este apartado se va a aprender a ubicar el control del zoom en las diferentes opciones y también como habilitar los textos que se asignan a los botones "+" y "-" para aumentar / disminuir el zoom.
 
-### Ubicar en posición
+### Zehaztutako posizioan kokatu
 
-Para añadir el control del zoom, en diferentes posiciones, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"position"** los siguientes valores para ubicar el control en el mapa:
+Zoom kontrola gehitu ahal izateko, posizio desberdinetan, (**IConfigMap**) konfigurazio atalaren barruan **"zoom"** aukera gehitu behar dugu **"position"** propietatearen barruan, kontrola maparen barruan kokatzeko:
 
 * **bottomleft**: Behean ezkerretara.
 * **bottomright**: Behean eskuinean.
 * **topright**: Goian eskuinean.
 * **topleft**: Goian ezkerretara, era lehenetsian aukera hau da.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartu zehaztu behar dugu:
 
 ```
 configMap: IConfigMap = {
