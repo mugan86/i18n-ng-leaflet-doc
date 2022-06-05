@@ -8,7 +8,7 @@ description: >-
 
 Para poder empezar a trabajar con la librería, vamos a usar la siguiente referencia:
 
-{% embed url="https://www.npmjs.com/package/@mugan86/ng-leaflet" %}
+[Librería NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
 
 Teniendo como referencia el anterior enlace, para instalar y configurar el paquete con el objetivo de poder implementar los Mapas de Leaflet en Angular de manera sencilla debemos de seguir los siguientes pasos:
 
@@ -16,7 +16,7 @@ Teniendo como referencia el anterior enlace, para instalar y configurar el paque
 
 Ejecutaremos el siguiente comando:
 
-```bash
+```
 npm i @mugan86/ng-leaflet
 ```
 
@@ -49,17 +49,15 @@ Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá 
 
 El fichero está ubicado en:
 
-{% hint style="info" %}
-node\_modules/@mugan86/ng-leaflet/assets/styles/common.css
-{% endhint %}
+```
+node_modules/@mugan86/ng-leaflet/assets/styles/common.css
+```
 
 Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
 
-{% code title="styles.css" %}
 ```
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
-{% endcode %}
 
 Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
