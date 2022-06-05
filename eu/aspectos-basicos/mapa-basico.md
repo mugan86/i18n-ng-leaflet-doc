@@ -26,4 +26,4 @@ Usaremos la siguiente entrada (input) para tener el id personalizado:
 
 Podremos ver el ejemplo completo a continuación:
 
-{% embed url="https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark" %}
+[Stackblitz - Mapa Básico](https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark)
