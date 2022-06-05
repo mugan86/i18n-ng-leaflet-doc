@@ -47,20 +47,17 @@ export class AppComponent {
 }
 
 ```
-{% endcode %}
 
 Aplicando en el HTML
 
-{% code title="app.component.html" %}
-```html
+```
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
-{% endcode %}
 
 Obteniendo el siguiente resultado:
 
-![](../../.gitbook/assets/03-zoom-controls.png)
+![Zoom controls Image](./../../.gitbook/assets/03-zoom-controls.png)
 
 Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
 
-{% embed url="https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark" %}
+[Stackblitz - Posiciones control Zoom](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
