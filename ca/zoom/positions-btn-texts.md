@@ -27,8 +27,7 @@ configMap: IConfigMap = {
 
 Añadiendo tanto en el componente como en el template:
 
-{% code title="app.component.ts" %}
-```javascript
+```
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
