@@ -50,7 +50,7 @@ Y aplicando directamente esa configuración en el template y usando el valor de 
 
 Cuyo resultado visual será algo como esto:
 
-![](../../.gitbook/assets/01-mapa-tamaño.png)
+![Map Size](./../../.gitbook/assets/01-mapa-tamaño.png)
 
 Tal y como podremos ver en la siguiente demo.
 
