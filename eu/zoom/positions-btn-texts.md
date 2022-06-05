@@ -8,10 +8,10 @@ En este apartado se va a aprender a ubicar el control del zoom en las diferentes
 
 Para añadir el control del zoom, en diferentes posiciones, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"position"** los siguientes valores para ubicar el control en el mapa:
 
-* **bottomleft**: Abajo a la izquierda.
-* **bottomright**: Abajo a la derecha.
-* **topright**: Arriba a la derecha.
-* **topleft**: Arriba a la izquierda, valor por defecto.
+* **bottomleft**: Behean ezkerretara.
+* **bottomright**: Behean eskuinean.
+* **topright**: Goian eskuinean.
+* **topleft**: Goian ezkerretara, era lehenetsian aukera hau da.
 
 Lo debemos de implementar teniendo en cuenta lo siguiente:
 
@@ -25,10 +25,9 @@ configMap: IConfigMap = {
 };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta plantilla aplikatuz:
 
-{% code title="app.component.ts" %}
-```javascript
+```
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
@@ -48,16 +47,16 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-an aplikatzen
 
 ```
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuz:
 
 ![Zoom controls Image](./../../.gitbook/assets/03-zoom-controls.png)
 
-Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
+Hemen adibidea daukazue ikusgai frogak egiteko kodearekin eta aukera desberdinekin:
 
-[Stackblitz - Posiciones control Zoom](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
+[Stackblitz - Zoom kontrolaren kokapena](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
