@@ -20,8 +20,7 @@ configMap: IConfigMap = {
 
 Añadiendo tanto en el componente como en el template:
 
-{% code title="app.component.ts" %}
-```javascript
+```
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
@@ -37,17 +36,13 @@ export class AppComponent {
     },
   };
 }
-
 ```
-{% endcode %}
 
 Aplicando en el HTML
 
-{% code title="app.component.html" %}
-```html
+```
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
-{% endcode %}
 
 Obteniendo el siguiente resultado:
 
@@ -55,4 +50,4 @@ Obteniendo el siguiente resultado:
 
 Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 
-{% embed url="https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark" %}
+[Stackblitz - Niveles de zoom](https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark)
