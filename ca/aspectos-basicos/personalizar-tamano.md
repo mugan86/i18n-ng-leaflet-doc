@@ -9,7 +9,7 @@ Si no añadimos la información para especificar el tamaño del mapa, el tamaño
 
 Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el siguiente @Input con la propiedad size que tendrá la siguiente estructura:
 
-```
+```typescript
 {
     width: string;
     height: string;
@@ -18,7 +18,7 @@ Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el si
 
 Lo podemos añadir directamente en el template o desde el componente:
 
-```
+```typescript
 import { Component } from '@angular/core';
 
 @Component({
@@ -35,7 +35,7 @@ export class AppComponent {
 Y aplicando directamente esa configuración en el template y usando el valor de la propiedad:
 
 
-```
+```html
 <ng-leaflet-map
   [mapId]="'basic__custom-size__example'"
   [size]="{ width: '500px', height: '200px' }"

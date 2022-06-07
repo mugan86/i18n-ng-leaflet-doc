@@ -13,3 +13,11 @@
 
 * [Botoien posizioa / testua](zoom/positions-btn-texts.md)
 * [Maila](zoom/levels.md)
+
+## Marcadores
+
+* [Introducción](./markers/intro.md)
+* [Marcador básico](./markers/one-marker.md)
+* [Marcadores básicos](./markers/two-or-more-markers.md)
+* [Marcadores aleatorios con zoom por defecto](./markers/random-markers-default-zoom.md)
+* [Marcadores aleatorios con selección de nivel de zoom](./markers/random-markers-select-zoom.md)
