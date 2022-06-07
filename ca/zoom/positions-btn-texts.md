@@ -15,7 +15,7 @@ Para añadir el control del zoom, en diferentes posiciones, dentro del apartado 
 
 Lo debemos de implementar teniendo en cuenta lo siguiente:
 
-```
+```typescript
 configMap: IConfigMap = {
     center: [number, number],
     // [lat, lng] as  [number, number]
@@ -27,7 +27,7 @@ configMap: IConfigMap = {
 
 Añadiendo tanto en el componente como en el template:
 
-```
+```typescript
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
@@ -49,7 +49,7 @@ export class AppComponent {
 
 Aplicando en el HTML
 
-```
+```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
