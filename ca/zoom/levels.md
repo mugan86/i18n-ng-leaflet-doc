@@ -10,7 +10,7 @@ Para añadir el control del zoom, en diferentes niveles de zoom, dentro del apar
 
 Lo debemos de implementar teniendo en cuenta lo siguiente:
 
-```
+```typescript
 configMap: IConfigMap = {
     zoom: {
       default: 16 // Número entre 0 y 20 incluidos
@@ -20,7 +20,7 @@ configMap: IConfigMap = {
 
 Añadiendo tanto en el componente como en el template:
 
-```
+```typescript
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
@@ -40,7 +40,7 @@ export class AppComponent {
 
 Aplicando en el HTML
 
-```
+```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
