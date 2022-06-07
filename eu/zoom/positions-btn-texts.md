@@ -15,7 +15,7 @@ Zoom kontrola gehitu ahal izateko, posizio desberdinetan, (**IConfigMap**) konfi
 
 Hurrengo kodea kontutan hartu zehaztu behar dugu:
 
-```
+```typescript
 configMap: IConfigMap = {
     center: [number, number],
     // [lat, lng] as  [number, number]
@@ -27,7 +27,7 @@ configMap: IConfigMap = {
 
 Konponentea eta plantilla aplikatuz:
 
-```
+```typescript
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 
@@ -49,7 +49,7 @@ export class AppComponent {
 
 HTML-an aplikatzen
 
-```
+```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
