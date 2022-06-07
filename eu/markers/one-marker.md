@@ -67,6 +67,6 @@ Obteniendo el siguiente resultado:
 
 ![Marker with fitbounds](./../../.gitbook/assets/05-one-marker-basic-fitbounds.png)
 
-Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
+Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 
 [Stackblitz - Marcador ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
