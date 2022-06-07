@@ -14,10 +14,10 @@
 * [Botoien posizioa / testua](zoom/positions-btn-texts.md)
 * [Maila](zoom/levels.md)
 
-## Marcadores
+## Laster-markagailua
 
-* [Introducción](./markers/intro.md)
-* [Marcador básico](./markers/one-marker.md)
-* [Marcadores básicos](./markers/two-or-more-markers.md)
-* [Marcadores aleatorios con zoom por defecto](./markers/random-markers-default-zoom.md)
-* [Marcadores aleatorios con selección de nivel de zoom](./markers/random-markers-select-zoom.md)
+* [Sarrera](./markers/intro.md)
+* [Oinarrizko laster-markagailua](./markers/one-marker.md)
+* [Oinarrizko laster-markagailuak](./markers/two-or-more-markers.md)
+* [Ausaszko laster-markagailuak era lehenetsian dagoen zoom mailan](./markers/random-markers-default-zoom.md)
+* [Ausaszko laster-markagailuak aukeratutako zoom mailan](./markers/random-markers-select-zoom.md)
