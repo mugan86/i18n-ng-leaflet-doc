@@ -12,7 +12,7 @@ Hasta el momento, si no añadimos esta información utilizará una coordenadas p
 
 Las coordenadas lo tenemos que introducir en la siguiente estructura de la propiedad:
 
-```
+```typescript
 configMap: IConfigMap = {
     center: [number, number],
     // [lat, lng] as  [number, number]
@@ -21,7 +21,7 @@ configMap: IConfigMap = {
 
 Con esta información añadida en el componente:
 
-```
+```typescript
 import { Component } from '@angular/core';
 import { IConfigMap } from '@mugan86/ng-leaflet';
 import { PLACES_LIST_LOCATIONS } from './locations';
@@ -44,7 +44,7 @@ export class AppComponent {
 
 Añadiendo la información  en el HTML:
 
-```
+```html
 <ng-leaflet-map
   [mapId]="'center__position'"
   [config]="configMap"
