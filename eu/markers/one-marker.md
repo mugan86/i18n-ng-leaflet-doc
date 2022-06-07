@@ -3,7 +3,7 @@
 Para añadir un simple marcador en el mapa, debemos de saber la ubicación del lugar mediante coordenadas geográficas (latitud y longitud) del punto que queremos indicar en nuestro mapa. Si desconocéis este dato, podéis recurrir a diferentes recursos para poder obtener coordenadas geográficas de manera muy fácil. Econtramos ejemplos como:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
-* [We Go Here](https://wego.here.com/) **(MUY RECOMENDABLE)**
+* [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
 
 Lo debemos de implementar teniendo en cuenta lo siguiente:
 
