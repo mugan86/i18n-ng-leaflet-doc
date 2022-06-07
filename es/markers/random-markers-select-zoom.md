@@ -67,7 +67,6 @@ export class AppComponent {
 Aplicando en el HTML
 
 ```html
- <td>
     <!-- Zoom level = 12 (default)-->
     <ng-leaflet-map
         [mapId]="'zoom_default'"
