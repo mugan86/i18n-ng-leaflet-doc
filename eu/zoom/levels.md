@@ -1,14 +1,14 @@
-# Nivel
+# Maila
 
 Después de trabajar con los controles de posición y los textos de los botones **'+'** y **'-'** En este apartado se va a aprender configurar el nivel de zoom que tendrá el mapa cuando lo carguemos.
 
-Si no se añade nada, el **nivel del zoom por defecto será 12**.
+Zoom mailaren konfigurazio ez badugu gehitzen, **zehaztuko den zoom-aren balioa era lehenetsian 12 izango da**.
 
 Tenemos que tener en consideracción, que el zoom está entre los valores de 0 y 20 (incluidos)
 
 Para añadir el control del zoom, en diferentes niveles de zoom, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"default"** un valor entero entre 0 y 20 (incluidos). Como se ha comentado, si no añadimos nada en esta propiedad, el valor será de 12
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Zehaztu beharra dugu hurrengoa kontutan hartuta:
 
 ```typescript
 configMap: IConfigMap = {
@@ -18,7 +18,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea bai plantilla gehiturik:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -38,16 +38,16 @@ export class AppComponent {
 }
 ```
 
-Aplicando en el HTML
+HTML-an zehaztuz
 
 ```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lorturik:
 
-![Zoom Levels](./../../.gitbook/assets/04-zoom-levels.png)
+![Zoom mailak](./../../.gitbook/assets/04-zoom-levels.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Niveles de zoom](https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Zoom mailak](https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark)
