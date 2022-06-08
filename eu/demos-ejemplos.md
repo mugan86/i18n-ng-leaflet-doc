@@ -1,19 +1,19 @@
 ---
 description: >-
-  En este apartado tenéis disponible el listado de ejemplos que puede resultar super útil para poder aprender el uso de esta librería e implementarlo en vuestros proyectos
+  Adibidean zerrenda duzue eskura, liburutegiaren erabilpenean ezagutza gehio hartzeko asmoarekin
 ---
 
-# 📝 Demos / Ejemplos
+# 📝 Adibideak
 
-Ejemplos con las funcionalidades principales que se usa para poder explicar todas las características de la librería.
+Liburutegiaren ezaugarri guztiak azaltzeko eskura ditugu funtzionalitate / erabili nagusien xehetasunak azaldurik.
 
-| Funcionalidad                                                        | Link                                                                                                                                                                                                                       |
+| Erabilera / Zertarako balio du                                       | Esteka                                                                                                                                                                                                                     |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mapa básico                                                          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
-| Mapa básico con tamaño personalizado                                 | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
-| Mapa especificando la posición central de la ubicación               | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?file=src%2Fapp%2Fapp.component.ts)                                                                                                  |
-| Controles de Zoom -  Posiciones / Personalizar botón \`+ y -       | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?file=src%2Fapp%2Fapp.component.ts)                                                                                                          |
-| Controles de Zoom - Nivel de Zoom                                    | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels?file=src%2Fapp%2Fapp.component.ts)                                                                                                                    |
+| Mapa arrunta                                                         | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
+| Tamaina pertsonalizatua duen mapa arunta                             | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
+| Erdiguneko kokapena zehaztutako mapa                                 | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?file=src%2Fapp%2Fapp.component.ts)                                                                                                  |
+| Zoom kontrolak - Posizioak / + eta - botoiak                         | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?file=src%2Fapp%2Fapp.component.ts)                                                                                                          |
+| Zoom kotrolak - Zoom maila                                           | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels?file=src%2Fapp%2Fapp.component.ts)                                                                                                                    |
 | Marcador básico y ajuste de cámara con fitBounds                     | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-marker?file=src%2Fapp%2Fapp.component.ts)                                                                                                                |
 | Marcadores y ajuste de cámara con fitBounds                          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-markers?file=src%2Fapp%2Fapp.component.ts)                                                                                                               |
 | Marcadores aleatorios con un zoom por defecto y fitBounds            | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-random-markers?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fapp.component.html)                                                                              |
