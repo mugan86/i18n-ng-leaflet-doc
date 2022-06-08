@@ -44,7 +44,7 @@ export class AppModule {}
 
 ### Estiloak gehitu
 
-Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá la carpeta **`"@mugan86/ng-leaflet"`** dentro de **`"node_modules"`** que contiene el fichero de estilos necesarios para mostrar los mapas correctamente.
+Paketea instalatzean kontuta eduki beharko dugu **`"@mugan86/ng-leaflet"`** direktorioa gehituko dela **`"node_modules"`** direktorioaren barruan, non mapak zuzen erakusteko estilo fitxategiak aurkituko ditugu.
 
 Fitxategia hemen aurkituko da:
 
@@ -62,7 +62,7 @@ Ezarpenak zehaztuta, [erreferentzia honen bitartez](aspectos-basicos/mapa-basico
 
 ### Konfigurazio egitura
 
-En este apartado, se os muestra la información general que se usará como base para implementar las configuraciones en las diferentes variantes.
+Aldaera desberdinetan ditugun konfigurazioei buruzko informazio orokorra edukiko dugu atal honetan.
 
 Estas las usaremos para las funcionalidades que tiene la librería y se irán explicando punto por punto cuál será su finalidad, como se implementa y el resultado para poder entender todo mejor.
 
