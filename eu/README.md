@@ -1,17 +1,17 @@
 ---
 description: >-
-  Pasos a seguir para poder comenzar a trabajar con la librería Angular Leaflet Map
+  Angular Leaflet Map liburrutegiarekin lanean hasteko eman behar diren pausoak azalduko dira atal honetan
 ---
 
-# ⚙ Instalación / Configuración
+# ⚙ Instalazioa / Konfigurazioa
 
-Para poder empezar a trabajar con la librería, vamos a usar la siguiente referencia:
+Liburutegiarekin lanean hasteko, hurrengo erreferentzia beharko dugu:
 
-[Librería NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
+[NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
 
 Teniendo como referencia el anterior enlace, para instalar y configurar el paquete con el objetivo de poder implementar los Mapas de Leaflet en Angular de manera sencilla debemos de seguir los siguientes pasos:
 
-### Instalar el paquete NPM
+### NPM paketea instalatu
 
 Ejecutaremos el siguiente comando:
 
@@ -19,9 +19,9 @@ Ejecutaremos el siguiente comando:
 npm i @mugan86/ng-leaflet
 ```
 
-Con estos instalaremos las dependencias en nuestro proyecto.
+Hau burutzean behar ditugun fitxategiak gehituko dira.
 
-### Añadir módulo del paquete
+### Paketearen moduloa gehitu
 
 En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
 
@@ -42,11 +42,11 @@ import { NgLeafletModule } from '@mugan86/ng-leaflet';
 export class AppModule {}
 ```
 
-### Añadir referencia de estilos
+### Estiloak gehitu
 
 Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá la carpeta **`"@mugan86/ng-leaflet"`** dentro de **`"node_modules"`** que contiene el fichero de estilos necesarios para mostrar los mapas correctamente.
 
-El fichero está ubicado en:
+Fitxategia hemen aurkituko da:
 
 ```
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
