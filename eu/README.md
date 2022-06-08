@@ -9,7 +9,7 @@ Liburutegiarekin lanean hasteko, hurrengo erreferentzia beharko dugu:
 
 [NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
 
-Teniendo como referencia el anterior enlace, para instalar y configurar el paquete con el objetivo de poder implementar los Mapas de Leaflet en Angular de manera sencilla debemos de seguir los siguientes pasos:
+Aurreko puntuan ikusitakoa kontutan hartuta, hurrengo pausoak burutu beharko ditugu Angular Leaflet Map paketea instalatu eta konfiguratu ahal izateko:
 
 ### NPM paketea instalatu
 
