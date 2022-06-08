@@ -25,7 +25,7 @@ Hau burutzean behar ditugun fitxategiak gehituko dira.
 
 Mapen funtzionalitateekin lan egin behar dugun atalean, **"NgLeafletModule" moduloa forRoot() funtzioarekin** gehitu beharko dugu **app.module.ts**&#x20; fitxategia adibide bezala erabiliz
 
-De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
+Modu honetan konfigurazio aurruntena burutzen ari gara. Aurrera egin ahala konfigurazio globala nola ezarri ahal den azalduko da, eman beharreko pauso guztiekin. Honela era lehenetsian guk nahi dugun konfigurazio zehatz bat izango dugu mapa guztietan erakusteko.
 
 ```
 import { NgModule } from '@angular/core';
@@ -64,6 +64,6 @@ Ezarpenak zehaztuta, [erreferentzia honen bitartez](aspectos-basicos/mapa-basico
 
 Aldaera desberdinetan ditugun konfigurazioei buruzko informazio orokorra edukiko dugu atal honetan.
 
-Estas las usaremos para las funcionalidades que tiene la librería y se irán explicando punto por punto cuál será su finalidad, como se implementa y el resultado para poder entender todo mejor.
+Aipaturiko liburutegiak dituen funtzionalitateak erabiliko ditugu non pausoz pauso, bakoitzaren xehetasunak emango dira erlazionaturiko esteka batekin, adibidearekin trebatzeko.
 
-Tendremos la interface **`IConfigMap`**, que es la estructura que usaremos para definir las diferentes opciones que se implementará en los mapas
+**`IConfigMap`** edukiko dugu, mapetan ezarriko diren aukera desberdinak zehazteko balioko digun egitura izango da.
