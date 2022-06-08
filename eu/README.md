@@ -13,7 +13,7 @@ Teniendo como referencia el anterior enlace, para instalar y configurar el paque
 
 ### NPM paketea instalatu
 
-Ejecutaremos el siguiente comando:
+Hurrengo agindua exekutatu:
 
 ```
 npm i @mugan86/ng-leaflet
@@ -23,7 +23,7 @@ Hau burutzean behar ditugun fitxategiak gehituko dira.
 
 ### Paketearen moduloa gehitu
 
-En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
+Mapen funtzionalitateekin lan egin behar dugun atalean, **"NgLeafletModule" moduloa forRoot() funtzioarekin** gehitu beharko dugu **app.module.ts**&#x20; fitxategia adibide bezala erabiliz
 
 De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
 
@@ -52,15 +52,15 @@ Fitxategia hemen aurkituko da:
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
-Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
+**`"styles.css"`** fitxategian honela gehituko dugu:
 
 ```
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
+Ezarpenak zehaztuta, [erreferentzia honen bitartez](aspectos-basicos/mapa-basico.md) mapen funtzio desberdinekin lan egin ahal izango dugu.
 
-### Estructura para configuraciones
+### Konfigurazio egitura
 
 En este apartado, se os muestra la información general que se usará como base para implementar las configuraciones en las diferentes variantes.
 
