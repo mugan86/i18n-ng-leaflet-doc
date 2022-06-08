@@ -1,8 +1,8 @@
 # Botoien posizioa / testua
 
-Ahora que ya [sabemos trabajar con lo básico de los mapas](../aspectos-basicos/mapa-basico.md), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
+[Mapen kontzeptu arrunteekin lanean egin ondoren](../aspectos-basicos/mapa-basico.md), zoom kontrolekin hasiko gara lanean.
 
-En este apartado se va a aprender a ubicar el control del zoom en las diferentes opciones y también como habilitar los textos que se asignan a los botones "+" y "-" para aumentar / disminuir el zoom.
+Atal honetan, ikusiko duguna da zoom kontrolaren kokapena zehaztea aukera desberdinetan eta baita ere "+" eta "-" finkatutako testuak gehitu / gutxitzeko zoom maila.
 
 ### Zehaztutako posizioan kokatu
 
