@@ -1,9 +1,9 @@
 ---
 description: >-
-  Una vez que ya tenemos controlados los dos primeros aspectos, vamos a especificar el punto en coordenadas donde queremos ubicarnos
+  Lehen bi kontzeptu nagusiak trebatu ditugun ostean, kokapenaren koordenatuak zehaztuko ditugu mapan zehazteko
 ---
 
-# Centrar en ubicación
+# Kokapenean erdiratu
 
 En este momento queremos centrar la cámara del mapa en unas coordenadas que nosotros queramos especificar.
 
@@ -18,7 +18,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Con esta información añadida en el componente:
+Konpoonentean informazio hau gehituko dugu:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -41,7 +41,7 @@ export class AppComponent {
 }
 ```
 
-Añadiendo la información  en el HTML:
+Informazioa HTML-ean gehituz:
 
 ```html
 <ng-leaflet-map
@@ -50,11 +50,11 @@ Añadiendo la información  en el HTML:
 ></ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lorturik:
 
-![Map in Center](./../../.gitbook/assets/02-mapa-center.png)
+![Mapa erdian](./../../.gitbook/assets/02-mapa-center.png)
 
-Y aquí la demo que podéis usar para probarlo y jugar con ello:
+Hona hemen adibidea proiektu gisa probatu eta aldaketak egiteko nahi dugun modura:
 
-[Stackblitz - Centrar en ubicación](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Kokapenean erdiratu](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
 
