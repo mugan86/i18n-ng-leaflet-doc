@@ -1,12 +1,12 @@
 # Maila
 
-Después de trabajar con los controles de posición y los textos de los botones **'+'** y **'-'** En este apartado se va a aprender configurar el nivel de zoom que tendrá el mapa cuando lo carguemos.
+Después de trabajar con los controles de posición y los textos de los botones **'+'** nahiz **'-'** botoiekin eta zoom-aren kotrol posizioarekin lan egin ostean, zoom-aren maila konfiguratzen ikasiko dugu.
 
 Zoom mailaren konfigurazio ez badugu gehitzen, **zehaztuko den zoom-aren balioa era lehenetsian 12 izango da**.
 
-Tenemos que tener en consideracción, que el zoom está entre los valores de 0 y 20 (incluidos)
+Kontutan eduki behar dugu zoom-aren maila 0 eta 20 bitarttekoa dela, biak barne
 
-Para añadir el control del zoom, en diferentes niveles de zoom, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"default"** un valor entero entre 0 y 20 (incluidos). Como se ha comentado, si no añadimos nada en esta propiedad, el valor será de 12
+Zoom kontrola zuzen gehitu ahal izateko, zoom maila desberdinetan, egin behar duguna da (**IConfigMap**) hartu eta honen barruan **"zoom"** propietatearen barruan **"default"** balorean zenbaki oso bat gehitu beharko dugu, 0 eta 20 artean. Esan den bezala, kopururik sartzen ez badugu, hartuko duen era lehenetsiko zenbakia 12 izango da.
 
 Zehaztu beharra dugu hurrengoa kontutan hartuta:
 
