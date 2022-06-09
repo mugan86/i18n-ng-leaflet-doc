@@ -7,9 +7,9 @@ description: >-
 
 Une honetan kokapenaren koordenatu geografikoak izanda erdiratuko dugu kamera, ondo ikusteko.
 
-Hasta el momento, si no añadimos esta información utilizará una coordenadas por defecto teniendo como referencia un array con dos números en los que estarán la latitud y la longitud.
+Une honerarte, informazio hau ez badugu gehittzen era lehenetsian ezarrita dauden koordenatu geografikoak erabiliko dira, bi zenbakiko array bat erabiliz non lehenbizi latitudea eta bigarrena longitudea izango da.
 
-Las coordenadas lo tenemos que introducir en la siguiente estructura de la propiedad:
+Propietatearen egituraren barruan sartu behar ditugu koordenatu geografikoak:
 
 ```typescript
 configMap: IConfigMap = {
