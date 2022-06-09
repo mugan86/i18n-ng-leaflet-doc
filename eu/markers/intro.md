@@ -1,9 +1,9 @@
-# Marcadores
+# Markagailuak
 
-Ahora que ya [sabemos trabajar con los controles de zoom](../zoom/positions-btn-texts.md), vamos a comenzar a trabajar con los elementos que van a dar más juego a los mapas, **los marcadores**.
+Ahora que ya [Zoom kontrolarekin behar genituen ezagutzak lortuta](../zoom/positions-btn-texts.md), mapetan garrantzia handia duen elementuekin hasiko gara lanean, hau da, **markagailuak**.
 
-En este apartado aprenderemos lo siguiente:
-* [Añadir un marcador y centrar la cámara en base a este marcador.](./one-marker.md)
-* [Añadir dos ó más marcadores y centrar la cámara en base a los marcadores añadidos.](./two-or-more-markers.md)
-* [Añadir marcadores aleatorios con zoom por defecto y ajustando cámara en base a los marcadores añadidos.](./random-markers-default-zoom.md)
-* [Añadir marcadores con diferentes niveles de zoom y ajuste de cámara con estos elementos.](./random-markers-select-zoom.md)
+Atal honetan honako aukerak izango ditugu:
+* [Markagailu bat gehitu eta erdiratu markagailu kokapenaren arabera.](./one-marker.md)
+* [Markagailu bi edo gehiago gehitu eta erdiratu markagailu guztien kokapenaren arabera.](./two-or-more-markers.md)
+* [Ausazko markagailuak gehitu era lehenetsian dagoen zoom mailarekin eta kamera erdiratu hauen kokapenaren arabera.](./random-markers-default-zoom.md)
+* [Ausazko markagailuak gehitu zoom maila desberdinetan eta kamera erdiratu hauen kokapenaren arabera.](./random-markers-select-zoom.md)
