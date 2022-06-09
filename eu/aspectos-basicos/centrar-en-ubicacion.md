@@ -5,7 +5,7 @@ description: >-
 
 # Kokapenean erdiratu
 
-En este momento queremos centrar la cámara del mapa en unas coordenadas que nosotros queramos especificar.
+Une honetan kokapenaren koordenatu geografikoak izanda erdiratuko dugu kamera, ondo ikusteko.
 
 Hasta el momento, si no añadimos esta información utilizará una coordenadas por defecto teniendo como referencia un array con dos números en los que estarán la latitud y la longitud.
 
