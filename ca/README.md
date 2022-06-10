@@ -1,27 +1,27 @@
 ---
 description: >-
-  Pasos a seguir para poder comenzar a trabajar con la librería Angular Leaflet Map
+  Passos a seguir per poder començar a treballar amb la llibreria Angular Leaflet Map
 ---
 
-# ⚙ Instalación / Configuración
+# Instalació / Configuració
 
-Para poder empezar a trabajar con la librería, vamos a usar la siguiente referencia:
+Per poder començar a treballar amb la llibreria, tenim que usar la següent referència:
 
-[Librería NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
+[Llibrería NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
 
-Teniendo como referencia el anterior enlace, para instalar y configurar el paquete con el objetivo de poder implementar los Mapas de Leaflet en Angular de manera sencilla debemos de seguir los siguientes pasos:
+Tenint com a referència l'anterior enllaç, per instal·lar i configurar el paquet amb l'objectiu de poder implementar els Mapes de Leaflet en Angular de manera senzilla hem de seguir els següents pasos:
 
-### Instalar el paquete NPM
+### Instal·lar el paquet NPM
 
-Ejecutaremos el siguiente comando:
+Executarem la següent comanda:
 
 ```
 npm i @mugan86/ng-leaflet
 ```
 
-Con estos instalaremos las dependencias en nuestro proyecto.
+Amb aquests instal·larem les dependències al nostre projecte.
 
-### Añadir módulo del paquete
+### Agregar mòdul del paquet
 
 En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
 
