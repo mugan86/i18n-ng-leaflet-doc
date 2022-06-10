@@ -46,13 +46,13 @@ export class AppModule {}
 
 Keep in mind that when you have installed the package, this will add the **`"@mugan86/ng-leaflet"`** folder inside **`"node_modules"`** which contains the necessary styles in order to show the maps correctly.
 
-El fichero está ubicado en:
+The file is located in:
 
 ```
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
-Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
+We can add it in our **`"styles.css"`** file like this:
 
 ```
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
