@@ -1,6 +1,6 @@
-### Añadir marcador
+### Markagailua gehitu
 
-Para añadir un simple marcador en el mapa, debemos de saber la ubicación del lugar mediante coordenadas geográficas (latitud y longitud) del punto que queremos indicar en nuestro mapa. Si desconocéis este dato, podéis recurrir a diferentes recursos para poder obtener coordenadas geográficas de manera muy fácil. Econtramos ejemplos como:
+Mapan oinarrizko markagailu bat gehitu ahal izateko, lekuaren koordenatu geografikoen (latitudea eta longitudea) puntua jakin beharko dugu gure mapan adierazteko. Datu hau ezezaguna baduzue, hurrengo esteken bidez koordenatu geografikoak lortu ahal ditugu era erraz batean. Honelako adibideak aurkituko ditugu:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
 * [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
@@ -67,6 +67,6 @@ Hurrengo emaitza lortuko da:
 
 ![Markagailua kamera egokitzapenarekin fitBounds bidez](./../../.gitbook/assets/05-one-marker-basic-fitbounds.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
 [Stackblitz - Markagailua kamera finkatzen kokapenaren arabera](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
