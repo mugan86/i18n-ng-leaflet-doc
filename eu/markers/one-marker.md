@@ -8,7 +8,7 @@ Para añadir un simple marcador en el mapa, debemos de saber la ubicación del l
 Lo debemos de implementar teniendo en cuenta lo siguiente:
 
 ```typescript
-  // Información de la ubicación
+  // Kokapenaren informazioa
   markers: Array<IMarker> = [
     {
       position: {
@@ -23,7 +23,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
   };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta template gehiturik:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -35,7 +35,7 @@ import { IConfigMap } from '@mugan86/ng-leaflet';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  // Información de la ubicación
+  // Kokapenaren informazioa
   markers: Array<IMarker> = [
       {
         position: {
@@ -44,7 +44,7 @@ export class AppComponent {
         },
       },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // Kameraren ikuspegia egokitzeko markagailuaren kokapena kontutan izanda
   config?: IConfigMap = {
       fitBounds: true,
   };
@@ -52,7 +52,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
 <ng-leaflet-map
