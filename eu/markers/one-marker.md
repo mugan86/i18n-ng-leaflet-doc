@@ -1,6 +1,6 @@
 ### Markagailua gehitu
 
-Mapan oinarrizko markagailu bat gehitu ahal izateko, lekuaren koordenatu geografikoen (latitudea eta longitudea) puntua jakin beharko dugu gure mapan adierazteko. Datu hau ezezaguna baduzue, hurrengo esteken bidez koordenatu geografikoak lortu ahal ditugu era erraz batean. Honelako adibideak aurkituko ditugu:
+Mapan oinarrizko markagailu bat gehitu ahal izateko, lekuaren koordenatu geografikoen (latitudea eta longitudea) puntua jakin beharko dugu gure mapan adierazteko. Datu hau ezezaguna baduzue, hurrengo esteken bidez koordenatu geografikoak lortu ahal ditugu era erraz batean. Encontramos ejemplos como:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
 * [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
