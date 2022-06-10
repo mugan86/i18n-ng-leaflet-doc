@@ -5,7 +5,7 @@ Para añadir un simple marcador en el mapa, debemos de saber la ubicación del l
 * [Openstreetmap](https://www.openstreetmap.org/)
 * [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartuta gehitu behar dugu:
 
 ```typescript
   // Kokapenaren informazioa
@@ -17,7 +17,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
       },
     },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // Kamera finkatzeko markagailuaren arabera
   config?: IConfigMap = {
     fitBounds: true,
   };
@@ -63,10 +63,10 @@ HTML-ean aplikatuz
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuko da:
 
-![Marker with fitbounds](./../../.gitbook/assets/05-one-marker-basic-fitbounds.png)
+![Markagailua kamera egokitzapenarekin fitBounds bidez](./../../.gitbook/assets/05-one-marker-basic-fitbounds.png)
 
 Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 
-[Stackblitz - Marcador ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
+[Stackblitz - Markagailua kamera finkatzen kokapenaren arabera](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
