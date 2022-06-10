@@ -60,10 +60,10 @@ Podem agregar-lo en el fitxer **`"styles.css"`** de la manera següent:
 
 Amb aquests ajustaments, podem començar a treballar amb les funcionalitats dels mapes [a partir d'aquesta referència](aspectos-basicos/mapa-basico.md).
 
-### Estructura para configuraciones
+### Estructura per configuracions
 
 En aquest apartat, es mostra la informació general que s'utilitzarà com a base per implementar les configuracions amb les diferents variants.
 
-Estas las usaremos para las funcionalidades que tiene la librería y se irán explicando punto por punto cuál será su finalidad, como se implementa y el resultado para poder entender todo mejor.
+Aquestes les utilitzarem per a les funcionalitats.
 
-Tendremos la interface **`IConfigMap`**, que es la estructura que usaremos para definir las diferentes opciones que se implementará en los mapas
+Tindrem la interfície **`IConfigMap`**, que és l'estructura que utilitzarem per definir les següents opcions que s'implementara en els mapes
