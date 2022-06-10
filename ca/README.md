@@ -23,9 +23,9 @@ Amb aquests instal·larem les dependències al nostre projecte.
 
 ### Agregar mòdul del paquet
 
-En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
+En l'apartat que volem utilitzar la funcionalitat, hem d'agregar el mòdul **"NgLeafletModule" trucant a la funció forRoot()** i podem tenir com a referència fer-ho per exemple **app.module.ts**&#x20;
 
-De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
+D'aquesta manera estarem fent la configuració bàsica, més endavant s'explicarà com especificar les configuracions per implementar la configuració global per no haver d'estar agrega'n una vegada i una altra les configuracions que utilitzarem en el mapa per defecte.
 
 ```
 import { NgModule } from '@angular/core';
@@ -42,27 +42,27 @@ import { NgLeafletModule } from '@mugan86/ng-leaflet';
 export class AppModule {}
 ```
 
-### Añadir referencia de estilos
+### Agregar referència d'estils
 
-Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá la carpeta **`"@mugan86/ng-leaflet"`** dentro de **`"node_modules"`** que contiene el fichero de estilos necesarios para mostrar los mapas correctamente.
+Hem de tenir en compte que quan hem instal·lat el paquet, s'agregarà la carpeta**` "@mugan86/ng-leaflet" `**dintre de**` "node_modules" `** que conté el fitxer d'estils necesaris per mostrar els mapes correctament.
 
-El fichero está ubicado en:
+El fitxer està ubicat en:
 
 ```
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
-Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
+Podem agregar-lo en el fitxer **`"styles.css"`** de la manera següent:
 
 ```
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
+Amb aquests ajustaments, podem començar a treballar amb les funcionalitats dels mapes [a partir d'aquesta referència](aspectos-basicos/mapa-basico.md).
 
 ### Estructura para configuraciones
 
-En este apartado, se os muestra la información general que se usará como base para implementar las configuraciones en las diferentes variantes.
+En aquest apartat, es mostra la informació general que s'utilitzarà com a base per implementar les configuracions amb les diferents variants.
 
 Estas las usaremos para las funcionalidades que tiene la librería y se irán explicando punto por punto cuál será su finalidad, como se implementa y el resultado para poder entender todo mejor.
 
