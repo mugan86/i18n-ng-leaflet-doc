@@ -1,6 +1,6 @@
 ---
 description: >-
-  Steps to follow for start working with Angular Leaftlet Map library
+  Steps to follow to get started with Angular Leaftlet Map library
 ---
 
 # ⚙ Installation / Configuration
@@ -23,9 +23,9 @@ Now, the dependencies have been installed on our project.
 
 ### Add the module of the package
 
-En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
+In the part of the application that we are going to use it, we need to add the module **"NgLeafletModule" calling the function forRoot()** and we can have it as a reference and example in **app.module.ts**&#x20;
 
-De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
+In this way we are creating a basic configuration. Later, we are going to explain how to implement a global configuration saving us time in order to not been adding over and over the configuration that are we going to use by default on this map.
 
 ```
 import { NgModule } from '@angular/core';
@@ -42,9 +42,9 @@ import { NgLeafletModule } from '@mugan86/ng-leaflet';
 export class AppModule {}
 ```
 
-### Añadir referencia de estilos
+### Add styles reference
 
-Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá la carpeta **`"@mugan86/ng-leaflet"`** dentro de **`"node_modules"`** que contiene el fichero de estilos necesarios para mostrar los mapas correctamente.
+Keep in mind that when you have installed the package, this will add the **`"@mugan86/ng-leaflet"`** folder inside **`"node_modules"`** which contains the necessary styles in order to show the maps correctly.
 
 El fichero está ubicado en:
 
