@@ -1,21 +1,21 @@
 ---
 description: >-
-  En este apartado tenéis disponible el listado de ejemplos que puede resultar super útil para poder aprender el uso de esta librería e implementarlo en vuestros proyectos
+  En aquest apartat teniu disponible el llistat d'exemples que pot resultar superútil per poder aprendre l'ús d'aquesta llibreria e implementar-ho en els vostres projectes
 ---
 
-# 📝 Demos / Ejemplos
+# 📝 Demos / Exemples
 
-Ejemplos con las funcionalidades principales que se usa para poder explicar todas las características de la librería.
+Exemples amb les funcionalitats principals que s'utilitza per poder explicar totes les característiques de la llibreria.
 
-| Funcionalidad                                                        | Link                                                                                                                                                                                                                       |
+| Funcionalitat                                                        | Enllaç                                                                                                                                                                                                                     |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mapa básico                                                          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
-| Mapa básico con tamaño personalizado                                 | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
-| Mapa especificando la posición central de la ubicación               | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?file=src%2Fapp%2Fapp.component.ts)                                                                                                  |
-| Controles de Zoom -  Posiciones / Personalizar botón \`+ y -       | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?file=src%2Fapp%2Fapp.component.ts)                                                                                                          |
-| Controles de Zoom - Nivel de Zoom                                    | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels?file=src%2Fapp%2Fapp.component.ts)                                                                                                                    |
-| Marcador básico y ajuste de cámara con fitBounds                     | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-marker?file=src%2Fapp%2Fapp.component.ts)                                                                                                                |
-| Marcadores y ajuste de cámara con fitBounds                          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-markers?file=src%2Fapp%2Fapp.component.ts)                                                                                                               |
+| Mapa bàsic                                                           | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
+| Mapa bàsic amb mida personalitzada                                   | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
+| Mapa especificant la posició central de la ubicació                  | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?file=src%2Fapp%2Fapp.component.ts)                                                                                                  |
+| Controls de Zoom - Posicions / Personalitzar botó \`+ y -          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?file=src%2Fapp%2Fapp.component.ts)                                                                                                          |
+| Controls de Zoom - Nivell de Zoom                                    | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels?file=src%2Fapp%2Fapp.component.ts)                                                                                                                    |
+| Marcador bàsic i ajustament de càmera amb fitBounds                  | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-marker?file=src%2Fapp%2Fapp.component.ts)                                                                                                                |
+| Marcadors i ajustament de càmera amb fitBounds                       | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-with-markers?file=src%2Fapp%2Fapp.component.ts)                                                                                                               |
 | Marcadores aleatorios con un zoom por defecto y fitBounds            | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-random-markers?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fapp.component.html)                                                                              |
 | Marcadores aleatorios con diferentes niveles de zoom y fitBounds     | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels-random-markers?file=src%2Fapp%2Fapp.component.ts,src%2Fapp%2Fapp.component.html)                                                                      |
 | Capas Base - Base Layers                                             | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-random-markers-tmqbap?file=src%2Fapp%2Fapp.component.ts)                                                                                                      |
