@@ -1,23 +1,23 @@
 # Table of contents
 
-* [⚙ Instalación / Configuración](README.md)
-* [📝 Demos / Ejemplos](demos-ejemplos.md)
+* [⚙ Installation / Configuration](README.md)
+* [📝 Demos / Examples](demos-ejemplos.md)
 
-## Aspectos Básicos
+## Basic Aspects
 
-* [Mapa Básico](aspectos-basicos/mapa-basico.md)
-* [Personalizar tamaño](aspectos-basicos/personalizar-tamano.md)
-* [Centrar en ubicación](aspectos-basicos/centrar-en-ubicacion.md)
+* [Basic Map](aspectos-basicos/mapa-basico.md)
+* [Size customization](aspectos-basicos/personalizar-tamano.md)
+* [Center location](aspectos-basicos/centrar-en-ubicacion.md)
 
 ## Zoom
 
-* [Posición / Textos botones](zoom/positions-btn-texts.md)
-* [Nivel](zoom/levels.md)
+* [Position / Buttons Text](zoom/positions-btn-texts.md)
+* [Level](zoom/levels.md)
 
-## Marcadores
+## Markers
 
-* [Introducción](./markers/intro.md)
-* [Marcador básico](./markers/one-marker.md)
-* [Marcadores básicos](./markers/two-or-more-markers.md)
-* [Marcadores aleatorios con zoom por defecto](./markers/random-markers-default-zoom.md)
-* [Marcadores aleatorios con selección de nivel de zoom](./markers/random-markers-select-zoom.md)
+* [Introduction](./markers/intro.md)
+* [Basic marker](./markers/one-marker.md)
+* [Basic markers](./markers/two-or-more-markers.md)
+* [Random markers with zoom by default](./markers/random-markers-default-zoom.md)
+* [Random markers with zoom level selection](./markers/random-markers-select-zoom.md)
