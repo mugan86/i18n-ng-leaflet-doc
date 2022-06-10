@@ -1,9 +1,9 @@
 ---
 description: >-
-  Una vez que ya tenemos controlados los dos primeros aspectos, vamos a especificar el punto en coordenadas donde queremos ubicarnos
+  Una vegada tinguem controlats els dos primers aspectes, podem especificar el punt en coordenades on volem ubicar-nos
 ---
 
-# Centrar en ubicación
+# Centrar en ubicació
 
 En este momento queremos centrar la cámara del mapa en unas coordenadas que nosotros queramos especificar.
 
