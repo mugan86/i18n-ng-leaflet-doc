@@ -74,7 +74,7 @@ HTML-ean aplikatuz
 
 Hurrengo emaitza lortuko da:
 
-![Markagailua kamera egokitzapenarekin fitBounds bidez](./../../.gitbook/assets/06-two-markers-fitbounds.png)
+![Markagailua kamera egokitzapenarekin fitBounds bidez](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/06-two-markers-fitbounds.png)
 
 Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
