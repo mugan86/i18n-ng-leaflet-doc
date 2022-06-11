@@ -52,7 +52,7 @@ Añadiendo la información  en el HTML:
 
 Obteniendo el siguiente resultado:
 
-![Map in Center](./../../.gitbook/assets/02-mapa-center.png)
+![Map in Center](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/02-mapa-center.png)
 
 Y aquí la demo que podéis usar para probarlo y jugar con ello:
 
