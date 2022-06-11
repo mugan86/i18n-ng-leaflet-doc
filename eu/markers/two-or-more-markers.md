@@ -53,7 +53,7 @@ export class AppComponent {
             },
         },
     ];
-    // Para ajustar la cámara al marcador añadido
+    // Kamera egokitzeko sartutako markagailu zerrendarekin
     config?: IConfigMap = {
         fitBounds: true,
     };
@@ -61,7 +61,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
 <ng-leaflet-map
@@ -72,10 +72,10 @@ Aplicando en el HTML
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuko da:
 
-![Markers with fitbounds](./../../.gitbook/assets/06-two-markers-fitbounds.png)
+![Markagailua kamera egokitzapenarekin fitBounds bidez](./../../.gitbook/assets/06-two-markers-fitbounds.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Marcadores ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-markers?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Markagailuak kamera fikatzen kokapenen arabera](https://stackblitz.com/edit/angular-leaflet-map-with-markers?embed=1&file=src/app/app.component.ts&theme=dark)
