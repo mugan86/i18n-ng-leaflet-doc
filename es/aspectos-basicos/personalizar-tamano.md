@@ -50,7 +50,7 @@ Y aplicando directamente esa configuración en el template y usando el valor de 
 
 Cuyo resultado visual será algo como esto:
 
-![Map Size](./../../.gitbook/assets/01-mapa-tamaño.png)
+![Map Size](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/01-mapa-tama%C3%B1o.png)
 
 Tal y como podremos ver en la siguiente demo.
 
