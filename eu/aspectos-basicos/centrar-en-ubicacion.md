@@ -52,7 +52,7 @@ Informazioa HTML-ean gehituz:
 
 Hurrengo emaitza lorturik:
 
-![Mapa erdian](./../../.gitbook/assets/02-mapa-center.png)
+![Mapa erdian](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/02-mapa-center.png)
 
 Hona hemen adibidea proiektu gisa probatu eta aldaketak egiteko nahi dugun modura:
 
