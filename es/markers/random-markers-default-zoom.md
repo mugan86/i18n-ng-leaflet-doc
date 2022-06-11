@@ -37,7 +37,7 @@ Aplicando en el HTML
 
 Obteniendo el siguiente resultado:
 
-![Random Markers with Default Zoom level](./../../.gitbook/assets/07-random-default-zoom.png)
+![Random Markers with Default Zoom level](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/07-random-default-zoom.png)
 
 Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 

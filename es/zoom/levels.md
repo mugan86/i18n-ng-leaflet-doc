@@ -46,7 +46,7 @@ Aplicando en el HTML
 
 Obteniendo el siguiente resultado:
 
-![Zoom Levels](./../../.gitbook/assets/04-zoom-levels.png)
+![Zoom Levels](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/04-zoom-levels.png)
 
 Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 
