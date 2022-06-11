@@ -74,7 +74,7 @@ Aplicando en el HTML
 
 Obteniendo el siguiente resultado:
 
-![Markers with fitbounds](./../../.gitbook/assets/06-two-markers-fitbounds.png)
+![Markers with fitbounds](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/06-two-markers-fitbounds.png)
 
 Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
 
