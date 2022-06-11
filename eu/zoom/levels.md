@@ -46,7 +46,7 @@ HTML-an zehaztuz
 
 Hurrengo emaitza lorturik:
 
-![Zoom mailak](./../../.gitbook/assets/04-zoom-levels.png)
+![Zoom mailak](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/04-zoom-levels.png)
 
 Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
