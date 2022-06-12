@@ -10,7 +10,7 @@ Una vez que ya hemos realizado las instalaciones y configuraciones en el paso an
 
 Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin añadir nada más.
 
-```
+```html
 <ng-leaflet-map></ng-leaflet-map>
 ```
 
