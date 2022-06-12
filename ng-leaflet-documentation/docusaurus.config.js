@@ -12,8 +12,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'mugan86', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
-  
+  projectName: 'i18n-ng-leaflet-doc', // Usually your repo name.
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -23,7 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          // editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
@@ -37,10 +36,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       }),
     ],
   ],
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'es', 'eu', 'ca'],
-  },
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -59,7 +54,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
           },
           {to: '/es/README', label: 'Español', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/mugan86/ng-leaflet',
             label: 'GitHub',
             position: 'right',
           },
@@ -72,8 +67,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Tutorial - Español',
+                to: '/es/summary',
               },
             ],
           },
@@ -81,12 +76,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github',
+                href: 'https://github.com/mugan86',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://cursos.anartz-mugika.com/discord',
               },
               {
                 label: 'Twitter',
@@ -98,12 +93,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Leaflet',
+                href: 'https://leafletjs.com/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Curso Leaflet desde 0 GRATIS',
+                href: 'https://cursos.anartz-mugika.com/leaflet-from-scratch',
               },
             ],
           },
