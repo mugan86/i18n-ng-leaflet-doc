@@ -1,0 +1,26 @@
+{
+  "unversionedId": "es/demos-ejemplos",
+  "id": "es/demos-ejemplos",
+  "isDocsHomePage": false,
+  "title": "📝 Demos / Ejemplos",
+  "description": "En este apartado tenéis disponible el listado de ejemplos que puede resultar super útil para poder aprender el uso de esta librería e implementarlo en vuestros proyectos",
+  "source": "@site/docs/es/demos-ejemplos.md",
+  "sourceDirName": "es",
+  "slug": "/es/demos-ejemplos",
+  "permalink": "/es/demos-ejemplos",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/demos-ejemplos.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "En este apartado tenéis disponible el listado de ejemplos que puede resultar super útil para poder aprender el uso de esta librería e implementarlo en vuestros proyectos"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Personalizar tamaño",
+    "permalink": "/es/aspectos-basicos/personalizar-tamano"
+  },
+  "next": {
+    "title": "Marcadores",
+    "permalink": "/es/markers/intro"
+  }
+}

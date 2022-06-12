@@ -1,0 +1,24 @@
+{
+  "unversionedId": "es/SUMMARY",
+  "id": "es/SUMMARY",
+  "isDocsHomePage": false,
+  "title": "Table of contents",
+  "description": "* ⚙ Instalación / Configuración",
+  "source": "@site/docs/es/SUMMARY.md",
+  "sourceDirName": "es",
+  "slug": "/es/SUMMARY",
+  "permalink": "/es/SUMMARY",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/SUMMARY.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "⚙ Instalación / Configuración",
+    "permalink": "/es/README"
+  },
+  "next": {
+    "title": "Centrar en ubicación",
+    "permalink": "/es/aspectos-basicos/centrar-en-ubicacion"
+  }
+}

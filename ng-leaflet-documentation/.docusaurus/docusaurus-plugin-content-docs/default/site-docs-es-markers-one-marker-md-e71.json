@@ -1,0 +1,24 @@
+{
+  "unversionedId": "es/markers/one-marker",
+  "id": "es/markers/one-marker",
+  "isDocsHomePage": false,
+  "title": "one-marker",
+  "description": "Añadir marcador",
+  "source": "@site/docs/es/markers/one-marker.md",
+  "sourceDirName": "es/markers",
+  "slug": "/es/markers/one-marker",
+  "permalink": "/es/markers/one-marker",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/markers/one-marker.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Marcadores",
+    "permalink": "/es/markers/intro"
+  },
+  "next": {
+    "title": "random-markers-default-zoom",
+    "permalink": "/es/markers/random-markers-default-zoom"
+  }
+}

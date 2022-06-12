@@ -1,0 +1,26 @@
+{
+  "unversionedId": "es/aspectos-basicos/mapa-basico",
+  "id": "es/aspectos-basicos/mapa-basico",
+  "isDocsHomePage": false,
+  "title": "Mapa Básico",
+  "description": "Como añadir un mapa con los ajustes básicos y cosas a tener en cuenta",
+  "source": "@site/docs/es/aspectos-basicos/mapa-basico.md",
+  "sourceDirName": "es/aspectos-basicos",
+  "slug": "/es/aspectos-basicos/mapa-basico",
+  "permalink": "/es/aspectos-basicos/mapa-basico",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/aspectos-basicos/mapa-basico.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Como añadir un mapa con los ajustes básicos y cosas a tener en cuenta"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Centrar en ubicación",
+    "permalink": "/es/aspectos-basicos/centrar-en-ubicacion"
+  },
+  "next": {
+    "title": "Personalizar tamaño",
+    "permalink": "/es/aspectos-basicos/personalizar-tamano"
+  }
+}

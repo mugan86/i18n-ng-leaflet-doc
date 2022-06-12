@@ -1,0 +1,24 @@
+{
+  "unversionedId": "es/zoom/levels",
+  "id": "es/zoom/levels",
+  "isDocsHomePage": false,
+  "title": "Nivel",
+  "description": "Después de trabajar con los controles de posición y los textos de los botones '+' y '-' En este apartado se va a aprender configurar el nivel de zoom que tendrá el mapa cuando lo carguemos.",
+  "source": "@site/docs/es/zoom/levels.md",
+  "sourceDirName": "es/zoom",
+  "slug": "/es/zoom/levels",
+  "permalink": "/es/zoom/levels",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/zoom/levels.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "two-or-more-markers",
+    "permalink": "/es/markers/two-or-more-markers"
+  },
+  "next": {
+    "title": "Posición / Textos botones",
+    "permalink": "/es/zoom/positions-btn-texts"
+  }
+}

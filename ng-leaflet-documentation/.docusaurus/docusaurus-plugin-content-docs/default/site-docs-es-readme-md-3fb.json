@@ -1,0 +1,26 @@
+{
+  "unversionedId": "es/README",
+  "id": "es/README",
+  "isDocsHomePage": false,
+  "title": "⚙ Instalación / Configuración",
+  "description": "Pasos a seguir para poder comenzar a trabajar con la librería Angular Leaflet Map",
+  "source": "@site/docs/es/README.md",
+  "sourceDirName": "es",
+  "slug": "/es/README",
+  "permalink": "/es/README",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/README.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Pasos a seguir para poder comenzar a trabajar con la librería Angular Leaflet Map"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Table of contents",
+    "permalink": "/es/SUMMARY"
+  }
+}

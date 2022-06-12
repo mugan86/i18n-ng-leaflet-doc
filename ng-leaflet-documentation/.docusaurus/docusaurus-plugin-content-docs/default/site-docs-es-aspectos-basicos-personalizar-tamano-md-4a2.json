@@ -1,0 +1,26 @@
+{
+  "unversionedId": "es/aspectos-basicos/personalizar-tamano",
+  "id": "es/aspectos-basicos/personalizar-tamano",
+  "isDocsHomePage": false,
+  "title": "Personalizar tamaño",
+  "description": "En este punto se va ha explicar como modificar el tamaño del mapa con el tamaño que seleccionemos modificando el que tenemos por defecto",
+  "source": "@site/docs/es/aspectos-basicos/personalizar-tamano.md",
+  "sourceDirName": "es/aspectos-basicos",
+  "slug": "/es/aspectos-basicos/personalizar-tamano",
+  "permalink": "/es/aspectos-basicos/personalizar-tamano",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/aspectos-basicos/personalizar-tamano.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "En este punto se va ha explicar como modificar el tamaño del mapa con el tamaño que seleccionemos modificando el que tenemos por defecto"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Mapa Básico",
+    "permalink": "/es/aspectos-basicos/mapa-basico"
+  },
+  "next": {
+    "title": "📝 Demos / Ejemplos",
+    "permalink": "/es/demos-ejemplos"
+  }
+}

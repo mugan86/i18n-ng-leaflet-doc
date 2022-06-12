@@ -1,0 +1,24 @@
+{
+  "unversionedId": "es/markers/two-or-more-markers",
+  "id": "es/markers/two-or-more-markers",
+  "isDocsHomePage": false,
+  "title": "two-or-more-markers",
+  "description": "Añadir más de un marcador",
+  "source": "@site/docs/es/markers/two-or-more-markers.md",
+  "sourceDirName": "es/markers",
+  "slug": "/es/markers/two-or-more-markers",
+  "permalink": "/es/markers/two-or-more-markers",
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/website/docs/es/markers/two-or-more-markers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "random-markers-select-zoom",
+    "permalink": "/es/markers/random-markers-select-zoom"
+  },
+  "next": {
+    "title": "Nivel",
+    "permalink": "/es/zoom/levels"
+  }
+}
