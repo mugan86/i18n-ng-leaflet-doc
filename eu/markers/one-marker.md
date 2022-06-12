@@ -1,16 +1,16 @@
 ---
-title: Añadir marcador
+title: Markagailua gehitu
 sidebar_position: 2
 ---
 
-### Añadir marcador
+### Markagailua gehitu
 
 Para añadir un simple marcador en el mapa, debemos de saber la ubicación del lugar mediante coordenadas geográficas (latitud y longitud) del punto que queremos indicar en nuestro mapa. Si desconocéis este dato, podéis recurrir a diferentes recursos para poder obtener coordenadas geográficas de manera muy fácil. Encontramos ejemplos como:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
-* [We Go Here](https://wego.here.com/) **(MUY RECOMENDABLE)**
+* [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartuta gehitu behar dugu:
 
 ```typescript
   // Información de la ubicación
@@ -28,7 +28,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
   };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta template gehiturik:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -57,7 +57,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
 <ng-leaflet-map
@@ -68,10 +68,10 @@ Aplicando en el HTML
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuko da:
 
-![Marker with fitbounds](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/05-one-marker-basic-fitbounds.png)
+![Markagailua kamera egokitzapenarekin fitBounds bidez](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/05-one-marker-basic-fitbounds.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Marcador ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
+[Stackblitz - Markagailua kamera finkatzen kokapenaren arabera](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
