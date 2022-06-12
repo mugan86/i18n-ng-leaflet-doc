@@ -55,7 +55,7 @@ Aplicando en el HTML
 
 Obteniendo el siguiente resultado:
 
-![Zoom controls Image](./../../.gitbook/assets/03-zoom-controls.png)
+![Zoom controls Image](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/03-zoom-controls.png)
 
 Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
 
