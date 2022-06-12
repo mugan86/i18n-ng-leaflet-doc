@@ -1,30 +1,30 @@
 ---
 id: summary
-title: Tabla de contenidos
+title: Edukien taula
 sidebar_position: 1
 ---
 
-# Tabla de contenidos
+# Edukien taula
 
-* [⚙ Instalación / Configuración](README.md)
-* [📝 Demos / Ejemplos](demos-ejemplos.md)
+* [⚙ Instalazioa / Konfigurazioa](README.md)
+* [📝 Adibideak](demos-ejemplos.md)
 
-## Aspectos Básicos
+## Lehen pausoak
 
-* [Mapa Básico](aspectos-basicos/mapa-basico.md)
-* [Personalizar tamaño](aspectos-basicos/personalizar-tamano.md)
-* [Centrar en ubicación](aspectos-basicos/centrar-en-ubicacion.md)
+* [Mapa arrunta](aspectos-basicos/mapa-basico.md)
+* [Tamaina pertsonalizatu](aspectos-basicos/personalizar-tamano.md)
+* [Erdian kokatu zehaztutako kokapena](aspectos-basicos/centrar-en-ubicacion.md)
 
-## Zoom
+## Zoom-a
 
-* [Posición / Textos botones](zoom/positions-btn-texts.md)
-* [Nivel](zoom/levels.md)
+* [Botoien posizioa / testua](zoom/positions-btn-texts.md)
+* [Maila](zoom/levels.md)
 
 
-## Marcadores
+## Laster-markagailua
 
-* [Introducción](markers/intro.md)
-* [Marcador básico](markers/one-marker.md)
-* [Marcadores básicos](markers/two-or-more-markers.md)
-* [Marcadores aleatorios con zoom por defecto](markers/random-markers-default-zoom.md)
-* [Marcadores aleatorios con selección de nivel de zoom](markers/random-markers-select-zoom.md)
+* [Sarrera](markers/intro.md)
+* [Oinarrizko laster-markagailua](markers/one-marker.md)
+* [Oinarrizko laster-markagailuak](markers/two-or-more-markers.md)
+* [Ausaszko laster-markagailuak era lehenetsian dagoen zoom mailan](markers/random-markers-default-zoom.md)
+* [Ausazko laster-markagailuak aukeratutako zoom mailan](markers/random-markers-select-zoom.md)
