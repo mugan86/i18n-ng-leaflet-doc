@@ -1,34 +1,34 @@
 ---
 id: readme
 sidebar_position: 3
-title: Instalación / Configuración
+title: Installation / Configuration
 description: >-
-  Pasos a seguir para poder comenzar a trabajar con la librería Angular Leaflet Map
+  Steps to follow to get started with Angular Leaftlet Map library
 ---
 
-# ⚙ Instalación / Configuración
+# ⚙ Installation / Configuration
 
-Para poder empezar a trabajar con la librería, vamos a usar la siguiente referencia:
+Before start working with the library, we are going to use the following reference:
 
-[Librería NPM - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
+[NPM Library - Angular Leaflet Map](https://www.npmjs.com/package/@mugan86/ng-leaflet)
 
-Teniendo como referencia el anterior enlace, para instalar y configurar el paquete con el objetivo de poder implementar los Mapas de Leaflet en Angular de manera sencilla debemos de seguir los siguientes pasos:
+Having as reference the previous link, for install and configure the package with the objective of implement the Leaflet Maps in Angular easily, we should follow the following steps:
 
-### Instalar el paquete NPM
+### Install the NPM package
 
-Ejecutaremos el siguiente comando:
+Execute the following command:
 
 ```
 npm i @mugan86/ng-leaflet
 ```
 
-Con estos instalaremos las dependencias en nuestro proyecto.
+Now, the dependencies have been installed on our project.
 
-### Añadir módulo del paquete
+### Add the module of the package
 
-En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módulo **"NgLeafletModule" llamando a la función forRoot()** y podemos tener como referencia hacerlo como ejemplo con **app.module.ts.**&#x20;
+In the part of the application that we are going to use it, we need to add the module **"NgLeafletModule" calling the function forRoot()** and we can have it as a reference and example in **app.module.ts**&#x20;
 
-De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
+In this way we are creating a basic configuration. Later, we are going to explain how to implement a global configuration saving us time in order to not been adding over and over the configuration that are we going to use by default on this map.
 
 ```
 import { NgModule } from '@angular/core';
@@ -42,26 +42,30 @@ import { NgLeafletModule } from '@mugan86/ng-leaflet';
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
+export class AppModule {} [BrowserModule, NgLeafletModule.forRoot()],
+  declarations: [AppComponent],
+  bootstrap: [AppComponent],
+})
 export class AppModule {}
 ```
 
-### Añadir referencia de estilos
+### Add styles reference
 
-Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá la carpeta **`"@mugan86/ng-leaflet"`** dentro de **`"node_modules"`** que contiene el fichero de estilos necesarios para mostrar los mapas correctamente.
+Keep in mind that when you have installed the package, this will add the **`"@mugan86/ng-leaflet"`** folder inside **`"node_modules"`** which contains the necessary styles in order to show the maps correctly.
 
-El fichero está ubicado en:
+The file is located in:
 
 ```
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
-Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
+We can add it in our **`"styles.css"`** file like this:
 
 ```
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](04-aspectos-basicos/mapa-basico.md).
+Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
 ### Estructura para configuraciones
 
