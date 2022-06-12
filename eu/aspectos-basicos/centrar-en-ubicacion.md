@@ -1,17 +1,17 @@
 ---
-title: Centrar en ubicación
+title: Kokapenean erdiratu
 sidebar_position: 3
 description: >-
-  Una vez que ya tenemos controlados los dos primeros aspectos, vamos a especificar el punto en coordenadas donde queremos ubicarnos
+  Lehen bi kontzeptu nagusiak trebatu ditugun ostean, kokapenaren koordenatuak zehaztuko ditugu mapan zehazteko
 ---
 
-# Centrar en ubicación
+# Kokapenean erdiratu
 
-En este momento queremos centrar la cámara del mapa en unas coordenadas que nosotros queramos especificar.
+Une honetan kokapenaren koordenatu geografikoak izanda erdiratuko dugu kamera, ondo ikusteko.
 
-Hasta el momento, si no añadimos esta información utilizará una coordenadas por defecto teniendo como referencia un array con dos números en los que estarán la latitud y la longitud.
+Une honerarte, informazio hau ez badugu gehittzen era lehenetsian ezarrita dauden koordenatu geografikoak erabiliko dira, bi zenbakiko array bat erabiliz non lehenbizi latitudea eta bigarrena longitudea izango da.
 
-Las coordenadas lo tenemos que introducir en la siguiente estructura de la propiedad:
+Propietatearen egituraren barruan sartu behar ditugu koordenatu geografikoak:
 
 ```typescript
 configMap: IConfigMap = {
@@ -20,7 +20,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Con esta información añadida en el componente:
+Konpoonentean informazio hau gehituko dugu:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -43,7 +43,7 @@ export class AppComponent {
 }
 ```
 
-Añadiendo la información  en el HTML:
+Informazioa HTML-ean gehituz:
 
 ```html
 <ng-leaflet-map
@@ -52,11 +52,11 @@ Añadiendo la información  en el HTML:
 ></ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lorturik:
 
-![Map in Center](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/02-mapa-center.png)
+![Mapa erdian](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/02-mapa-center.png)
 
-Y aquí la demo que podéis usar para probarlo y jugar con ello:
+Hona hemen adibidea proiektu gisa probatu eta aldaketak egiteko nahi dugun modura:
 
-[Stackblitz - Centrar en ubicación](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Kokapenean erdiratu](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
 
