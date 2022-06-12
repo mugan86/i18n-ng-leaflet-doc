@@ -4,26 +4,27 @@ title: Tabla de contenidos
 sidebar_position: 1
 ---
 
-# Taula de continguts
+# Tabla de contenidos
 
-* [⚙ Instalació / Configuració](README.md)
-* [Demos / Exemples](demos-ejemplos.md)
+* [⚙ Instalación / Configuración](README.md)
+* [📝 Demos / Ejemplos](demos-ejemplos.md)
 
-## Aspectes bàsics
+## Aspectos Básicos
 
-* [Mapa bàsic](aspectos-basicos/mapa-basico.md)
-* [Personalitzar mida](aspectos-basicos/personalizar-tamano.md)
-* [Centrar en ubicació](aspectos-basicos/centrar-en-ubicacion.md)
+* [Mapa Básico](aspectos-basicos/mapa-basico.md)
+* [Personalizar tamaño](aspectos-basicos/personalizar-tamano.md)
+* [Centrar en ubicación](aspectos-basicos/centrar-en-ubicacion.md)
 
 ## Zoom
 
-* [Posició / Textos botons](zoom/positions-btn-texts.md)
-* [Nivell](zoom/levels.md)
+* [Posición / Textos botones](zoom/positions-btn-texts.md)
+* [Nivel](zoom/levels.md)
 
-## Marcadors
 
-* [Introducció](./markers/intro.md)
-* [Marcador bàsic](./markers/one-marker.md)
-* [Marcadors bàsics](./markers/two-or-more-markers.md)
-* [Marcadors aleatoris amb zoom per defecte](./markers/random-markers-default-zoom.md)
-* [Marcadors aleatoris amb selecció de nivell de zoom](./markers/random-markers-select-zoom.md)
+## Marcadores
+
+* [Introducción](markers/intro.md)
+* [Marcador básico](markers/one-marker.md)
+* [Marcadores básicos](markers/two-or-more-markers.md)
+* [Marcadores aleatorios con zoom por defecto](markers/random-markers-default-zoom.md)
+* [Marcadores aleatorios con selección de nivel de zoom](markers/random-markers-select-zoom.md)
