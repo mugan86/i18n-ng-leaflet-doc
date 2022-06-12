@@ -1,13 +1,13 @@
 ---
-title: Añadir dos ó más
+title: Markagailu bat baino gehiago gehitu
 sidebar_position: 3
 ---
 
-### Añadir más de un marcador
+### Markagailu bat baino gehiago gehitu
 
 Para añadir más de un marcador en el mapa, debemos de saber la ubicaciones de cada unos de los puntos que vamos a insertar en el mapa mediante coordenadas geográficas (latitud y longitud). Recordad que tenemos varias opciones propuestas en el punto anterior que os servirá para tener más a mano diferentes ubicaciones.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartuta gehitu behar dugu:
 
 ```typescript
     // Información de la ubicación
@@ -31,7 +31,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
   };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta template gehiturik:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -66,7 +66,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
 <ng-leaflet-map
@@ -77,10 +77,10 @@ Aplicando en el HTML
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuko da:
 
-![Markers with fitbounds](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/06-two-markers-fitbounds.png)
+![Markagailua kamera egokitzapenarekin fitBounds bidez](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/06-two-markers-fitbounds.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Marcadores ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-markers?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Markagailuak kamera fikatzen kokapenen arabera](https://stackblitz.com/edit/angular-leaflet-map-with-markers?embed=1&file=src/app/app.component.ts&theme=dark)
