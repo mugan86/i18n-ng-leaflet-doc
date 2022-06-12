@@ -1,24 +1,24 @@
 ---
-title: Posición / Textos botones
+title: Botoien posizioa / testua
 sidebar_position: 1
 ---
 
-# Posición / Textos botones
+# Botoien posizioa / testua
 
-Ahora que ya [sabemos trabajar con lo básico de los mapas](../aspectos-basicos/mapa-basico.md), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
+[Mapen kontzeptu arrunteekin lanean egin ondoren](../aspectos-basicos/mapa-basico.md), zoom kontrolekin hasiko gara lanean.
 
-En este apartado se va a aprender a ubicar el control del zoom en las diferentes opciones y también como habilitar los textos que se asignan a los botones "+" y "-" para aumentar / disminuir el zoom.
+Atal honetan, ikusiko duguna da zoom kontrolaren kokapena zehaztea aukera desberdinetan eta baita ere "+" eta "-" finkatutako testuak gehitu / gutxitzeko zoom maila.
 
-### Ubicar en posición
+### Zehaztutako posizioan kokatu
 
-Para añadir el control del zoom, en diferentes posiciones, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"position"** los siguientes valores para ubicar el control en el mapa:
+Zoom kontrola gehitu ahal izateko, posizio desberdinetan, (**IConfigMap**) konfigurazio atalaren barruan **"zoom"** aukera gehitu behar dugu **"position"** propietatearen barruan, kontrola maparen barruan kokatzeko:
 
-* **bottomleft**: Abajo a la izquierda.
-* **bottomright**: Abajo a la derecha.
-* **topright**: Arriba a la derecha.
-* **topleft**: Arriba a la izquierda, valor por defecto.
+* **bottomleft**: Behean ezkerretara.
+* **bottomright**: Behean eskuinean.
+* **topright**: Goian eskuinean.
+* **topleft**: Goian ezkerretara, era lehenetsian aukera hau da.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartu zehaztu behar dugu:
 
 ```typescript
 configMap: IConfigMap = {
@@ -30,7 +30,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta plantilla aplikatuz:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -52,16 +52,16 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-an aplikatzen
 
 ```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuz:
 
 ![Zoom controls Image](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/03-zoom-controls.png)
 
-Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
+Hemen adibidea daukazue ikusgai frogak egiteko kodearekin eta aukera desberdinekin:
 
-[Stackblitz - Posiciones control Zoom](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
+[Stackblitz - Zoom kontrolaren kokapena](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
