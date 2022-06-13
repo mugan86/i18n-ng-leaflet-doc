@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ### Markagailua gehitu
 
-Para añadir un simple marcador en el mapa, debemos de saber la ubicación del lugar mediante coordenadas geográficas (latitud y longitud) del punto que queremos indicar en nuestro mapa. Si desconocéis este dato, podéis recurrir a diferentes recursos para poder obtener coordenadas geográficas de manera muy fácil. Encontramos ejemplos como:
+Mapan oinarrizko markagailu bat gehitu ahal izateko, lekuaren koordenatu geografikoen (latitudea eta longitudea) puntua jakin beharko dugu gure mapan adierazteko. Datu hau ezezaguna baduzue, hurrengo esteken bidez koordenatu geografikoak lortu ahal ditugu era erraz batean. Honelako adibideak aurkituko ditugu:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
 * [We Go Here](https://wego.here.com/) **(OSO GOMENDAGARRIA)**
@@ -13,19 +13,19 @@ Para añadir un simple marcador en el mapa, debemos de saber la ubicación del l
 Hurrengo kodea kontutan hartuta gehitu behar dugu:
 
 ```typescript
-  // Información de la ubicación
-  markers: Array<IMarker> = [
-    {
-      position: {
+  // Kokapenaren informazioa
+  markers: Array<IMarker> = [      {
+        position: {
         lat: 21.3320135,
         lng: -157.8287631,
       },
-    },
+      },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // Kameraren ikuspegia egokitzeko markagailuaren kokapena kontutan izanda
   config?: IConfigMap = {
     fitBounds: true,
   };
+};
 ```
 
 Konponentea eta template gehiturik:
@@ -40,7 +40,7 @@ import { IConfigMap } from '@mugan86/ng-leaflet';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  // Información de la ubicación
+  // Kokapenaren informazioa
   markers: Array<IMarker> = [
       {
         position: {
@@ -49,7 +49,7 @@ export class AppComponent {
         },
       },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // Kameraren ikuspegia egokitzeko markagailuaren kokapena kontutan izanda
   config?: IConfigMap = {
       fitBounds: true,
   };
