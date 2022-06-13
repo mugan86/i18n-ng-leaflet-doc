@@ -1,5 +1,5 @@
 ---
-title: Demos / Exemples
+title: Exemples
 sidebar_position: 4
 description: >-
   En aquest apartat teniu disponible el llistat d'exemples que pot resultar superútil per poder aprendre l'ús d'aquesta llibreria e implementar-ho en els vostres projectes
