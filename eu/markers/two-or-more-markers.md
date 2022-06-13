@@ -5,13 +5,13 @@ sidebar_position: 3
 
 ### Markagailu bat baino gehiago gehitu
 
-Para añadir más de un marcador en el mapa, debemos de saber la ubicaciones de cada unos de los puntos que vamos a insertar en el mapa mediante coordenadas geográficas (latitud y longitud). Recordad que tenemos varias opciones propuestas en el punto anterior que os servirá para tener más a mano diferentes ubicaciones.
+Mapan markagailu bat baino gehitu ahal izateko, honetan finkatu nahi ditugun kokapenen koordenatu geografikoak (latitudea eta longitudea) jakin behar ditugu itsatsi ahal izateko. Gogoratu, aurreko atalean dituzuela erabilgarri zenbait aukera kokapenak bere informazioekin erabili ahal izateko atal honetan.
 
 Hurrengo kodea kontutan hartuta gehitu behar dugu:
 
 ```typescript
-    // Información de la ubicación
-    markers: Array<IMarker> = [
+    // Kokapenaren informazioa
+  markers: Array<IMarker> = [
         {
           position: {
             lat: 43.17757110078426,
@@ -25,7 +25,7 @@ Hurrengo kodea kontutan hartuta gehitu behar dugu:
           },
         },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // Kamera egokitzeko, sartutako markagailu zerrendarekin
   config?: IConfigMap = {
     fitBounds: true,
   };
@@ -43,7 +43,7 @@ import { IConfigMap } from '@mugan86/ng-leaflet';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-    // Información de la ubicación
+    // Kokapenaren informazioa
     markers: Array<IMarker> = [
         {
             position: {
@@ -58,7 +58,7 @@ export class AppComponent {
             },
         },
     ];
-    // Para ajustar la cámara al marcador añadido
+    // Kamera egokitzeko sartutako markagailu zerrendarekin
     config?: IConfigMap = {
         fitBounds: true,
     };
