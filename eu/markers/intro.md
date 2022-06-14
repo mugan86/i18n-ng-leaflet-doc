@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Markagailuak
 
-Ahora que ya [Zoom kontrolarekin behar genituen ezagutzak lortuta](../zoom/positions-btn-texts.md), mapetan garrantzia handia duen elementuekin hasiko gara lanean, hau da, **markagailuak**.
+[Zoom kontrolarekin behar genituen ezagutzak lortuta](../zoom/positions-btn-texts.md), mapetan garrantzia handia duen elementuekin hasiko gara lanean, hau da, **markagailuak**.
 
 Atal honetan honako aukerak izango ditugu:
 * [Markagailu bat gehitu eta erdiratu markagailu kokapenaren arabera.](./one-marker.md)
