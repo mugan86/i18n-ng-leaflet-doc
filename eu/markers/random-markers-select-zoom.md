@@ -1,17 +1,17 @@
 ---
-title: Aleatorios y selección zoom
+title: Ausazkoak eta zoom aukeraketa
 sidebar_position: 5
 ---
 
-### Añadir marcadores aleatorios seleccionando el nivel del zoom
+### Zoom maila aukeraturik gehitu ausazko markagailuak
 
-Esta opción es válida para cuando queramos añadir un mapa con una cantidad de marcadores aleatorios en un punto concreto.
+Aukera hau baliagaria da puntu zehatz batean ausazko markatzaile ugari dituen mapa bat gehitu nahi dugunean.
 
-Esto servirá para mostrar una demo sin tener que añadir los marcadores a mano de una manera sencilla y sin implementar muchas configuraciones.
+Funtzionalitate honek ahalbidetuko digu adibide bat markagailu sorta bat erakusteko modu errez eta konfiguraziorik ezarri gabe.
 
-A diferencia del anterior punto, seleccionaremos el nivel del zoom a un valor entre 0 (vista mundial) y 20 (lo más cercano), que será el establecido por defecto.
+Aurreko puntuarekin alderatuta, 0 (mundu mailako ikuspegia) eta 20 (gertuena) arteko zoom balioa aukeratu beharko dugu, era lehentsian zehaztuko dena izango dela.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartu zehaztu behar dugu:
 
 ```typescript
     randomMarkers = true;
@@ -23,10 +23,9 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
     };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta plantilla aplikatuz:
 
 ```typescript
-,
 import { Component, VERSION } from '@angular/core';
 
 @Component({
@@ -69,7 +68,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
     <!-- Zoom level = 12 (default)-->
@@ -106,11 +105,11 @@ Aplicando en el HTML
 
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuz:
 
 ![Random Markers with select Zoom level](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/08-random-select-zoom.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Marcadores aleatorios seleccionando nivel de zoom](https://stackblitz.com/edit/angular-leaflet-zoom-levels-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Zoom-maila hautatuz ausazko margailuekin](https://stackblitz.com/edit/angular-leaflet-zoom-levels-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
 
