@@ -5,7 +5,7 @@ sidebar_position: 2
 
 # Maila
 
-Después de trabajar con los controles de posición y los textos de los botones **'+'** nahiz **'-'** botoiekin eta zoom-aren kotrol posizioarekin lan egin ostean, zoom-aren maila konfiguratzen ikasiko dugu.
+**'+'** nahiz **'-'** botoiekin eta zoom-aren kotrol posizioarekin lan egin ostean, zoom-aren maila konfiguratzen ikasiko dugu.
 
 Zoom mailaren konfigurazio ez badugu gehitzen, **zehaztuko den zoom-aren balioa era lehenetsian 12 izango da**.
 
