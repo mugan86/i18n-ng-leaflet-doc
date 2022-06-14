@@ -1,9 +1,9 @@
 ---
-title: Aleatorios y zoom por defecto
+title: Era lehenetsian ezarritako zoom balorea eta ausazkoak
 sidebar_position: 4
 ---
 
-### Añadir marcadores aleatorios con zoom por defecto
+### Ausazko markagailuak era lehenetsian zehaztutako zoom-akin
 
 Esta opción es válida para cuando queramos añadir un mapa con una cantidad de marcadores aleatorios en un punto concreto.
 
@@ -17,7 +17,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
     randomMarkers = true;
 ```
 
-Añadiendo tanto en el componente como en el template:
+Konponentea eta plantilla aplikatuz:
 
 ```typescript
 import { Component, VERSION } from '@angular/core';
@@ -33,18 +33,18 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+HTML-ean aplikatuz
 
 ```html
 <ng-leaflet-map [mapId]="'random_markers_map'" [randomMarkers]="randomMarkers">
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Hurrengo emaitza lortuz:
 
 ![Random Markers with Default Zoom level](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/07-random-default-zoom.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+Hurrengo estekan, adibidea daukazue eskura probatu eta aldaketak egiteko praktikatzeko asmoz:
 
-[Stackblitz - Marcadores aleatorios con zoom por defecto](https://stackblitz.com/edit/angular-leaflet-map-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Era lehentsian zehaztutako ausazko markagailuak](https://stackblitz.com/edit/angular-leaflet-map-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
 
