@@ -7,9 +7,9 @@ description: >-
 
 # Tamaina pertsonalizatu
 
-Si no añadimos la información para especificar el tamaño del mapa, el tamaño que tendrá será el especificado en el paso anterior, concretamente 100% de ancho y 500px de altura.
+Maparen tamaina zehazteko informazioa gehitzen ez badugu, hartuko dituen neurriak aurreko urratsean zehaztutakoa izango da, zehazki %100eko zabalera eta 500px altuera.
 
-Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el siguiente @Input con la propiedad size que tendrá la siguiente estructura:
+MapId-az gain, maparen Ida zehazteko erabiltzen dena, honako @Input hau gehituko dugu size propietatearekin, honako egitura hau izango duena:
 
 ```typescript
 {
@@ -34,7 +34,7 @@ export class AppComponent {
 }
 ```
 
-Y aplicando directamente esa configuración en el template y usando el valor de la propiedad:
+Eta zuzenean konfigurazio hori tenplatea-an aplikatuz eta propietatearen balioa erabiliz:
 
 
 ```html
