@@ -1,5 +1,5 @@
 ---
-title: Marcadores
+title: Inicio
 sidebar_position: 1
 ---
 # Marcadores
