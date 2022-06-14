@@ -20,7 +20,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Konpoonentean informazio hau gehituko dugu:
+Konponentean informazio hau gehituko dugu:
 
 ```typescript
 import { Component } from '@angular/core';
