@@ -1,19 +1,19 @@
 ---
-title: Demos / Ejemplos
+title: Demos / Examples
 sidebar_position: 4
 description: >-
-  En este apartado tenéis disponible el listado de ejemplos que puede resultar super útil para poder aprender el uso de esta librería e implementarlo en vuestros proyectos
+  In this section you have available the list of examples that can be super useful to be able to learn the use of this library and implement it in your projects
 ---
 
 
-# 📝 Demos / Ejemplos
+# 📝 Demos / Examples
 
-Ejemplos con las funcionalidades principales que se usa para poder explicar todas las características de la librería.
+Examples with the main functionalities that are used to explain all the features of the library.
 
-| Funcionalidad                                                        | Link                                                                                                                                                                                                                       |
+| Functionality                                                        | Link                                                                                                                                                                                                                       |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Mapa básico                                                          | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
-| Mapa básico con tamaño personalizado                                 | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
+| Basic Map                                                            | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic?file=src%2Fapp%2Fapp.component.ts)                                                                                                                      |
+| Basic Map with Custom Size                                           | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?file=src%2Fapp%2Fapp.component.html)                                                                                                        |
 | Mapa especificando la posición central de la ubicación               | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?file=src%2Fapp%2Fapp.component.ts)                                                                                                  |
 | Controles de Zoom -  Posiciones / Personalizar botón \`+ y -       | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?file=src%2Fapp%2Fapp.component.ts)                                                                                                          |
 | Controles de Zoom - Nivel de Zoom                                    | [Stackblitz](https://stackblitz.com/edit/angular-leaflet-zoom-levels?file=src%2Fapp%2Fapp.component.ts)                                                                                                                    |
