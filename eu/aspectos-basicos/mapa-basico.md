@@ -6,9 +6,9 @@ description: Oinarrizko konfigurazioekin gehitu mapa bat eta kontutan hartu beha
 
 # Oinarrizko mapa
 
-Una vez que ya hemos realizado las instalaciones y configuraciones en el paso anterior, vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
+Egin behar diren instalazioak eta konfigurazioak burututa, mapetatik informazioa lortzen hasiko gara, eta zer hobe adibide erraz bat egitea baino, non mapa oinarrizko ezarpenekin soilik erakutsiko dugun.
 
-Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin añadir nada más.
+Mapa bat gehitu ahal izateko, **`"ng-leaflet-map"`** seleketorea gehitu behar dugu beste ezer gehitu gabe.
 
 ```html
 <ng-leaflet-map></ng-leaflet-map>
@@ -16,9 +16,9 @@ Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin
 
 Hau aplikatuz, maparen zabalera 100%-koa eta altuera 500px-koa izango da 'map' id-a duen geruzari.
 
-La opción del id del mapa es personalizada para que si queremos añadir más de un mapa dentro de la página, podamos hacerlo para evitar que no de error y se puedan visualizar más de un mapa. Por defecto, nuestra recomendación es añadir un id diferente a "map"
+Maparen id aukera pertsonalizatuta da, orri barruan mapa bat baino gehiago gehitu nahi izanez gero, akatsak saihesteko eta mapa bat baino gehiago bistaratu ahal izateko. Era lehenetsian, gure gomendioa da "map" balorea ez den beste balore bat gehitzea da, adibidez "map__arrunta"
 
-Usaremos la siguiente entrada (input) para tener el id personalizado:
+Id pertsonalizatua izateko hurrengo sarrera (input) erabiliko dugu:
 
 * **mapId**: Era lehenetsian "map" izango da
 
