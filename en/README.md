@@ -67,10 +67,10 @@ We can add it in our **`"styles.css"`** file like this:
 
 Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
-### Estructura para configuraciones
+### Structure for configurations
 
-En este apartado, se os muestra la información general que se usará como base para implementar las configuraciones en las diferentes variantes.
+In this section, we show you the general information that will be used as a basis to implement the configurations in the different variants.
 
-Estas las usaremos para las funcionalidades que tiene la librería y se irán explicando punto por punto cuál será su finalidad, como se implementa y el resultado para poder entender todo mejor.
+We will use these for the functionalities that the library has and will explain point by point what its purpose will be, how it is implemented and the result in order to understand everything better.
 
-Tendremos la interface **`IConfigMap`**, que es la estructura que usaremos para definir las diferentes opciones que se implementará en los mapas
+We will have the interface **`IConfigMap`**, which is the structure that we will use to define the different options that will be implemented in the maps
