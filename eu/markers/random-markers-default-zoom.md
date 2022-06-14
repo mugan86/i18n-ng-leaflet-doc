@@ -5,13 +5,13 @@ sidebar_position: 4
 
 ### Ausazko markagailuak era lehenetsian zehaztutako zoom-akin
 
-Esta opción es válida para cuando queramos añadir un mapa con una cantidad de marcadores aleatorios en un punto concreto.
+Aukera honek baliagarria da puntu zehatz batean ausazko markagilu sorta bat mapan gehitu nahi dugunean.
 
-Esto servirá para mostrar una demo sin tener que añadir los marcadores a mano de una manera sencilla y sin implementar muchas configuraciones.
+Honen erabilpena da adibide azkarrak sortzea konfigurazio askorik zarri gabe eta eskuz gehitu gabe markagailuak.
 
-En este apartado, se mostrará el nivel de zoom a 12, que será el establecido por defecto. Esto es configurable y lo veremos en el [siguiente apartado](./random-markers-select-zoom.md).
+Atal honetan era lehenetsian ezarritako zoom maila 12-koa izango da. Balio hau aldatu ahalko dugu konfigurazioaz eta hau [hurrengo atal honetan ikusi ahalko dugu](./random-markers-select-zoom.md).
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+Hurrengo kodea kontutan hartu zehaztu behar dugu:
 
 ```typescript
     randomMarkers = true;
