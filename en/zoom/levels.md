@@ -3,7 +3,7 @@ title: Nivel
 sidebar_position: 2
 ---
 
-# Nivel
+# Level
 
 Después de trabajar con los controles de posición y los textos de los botones **'+'** y **'-'** En este apartado se va a aprender configurar el nivel de zoom que tendrá el mapa cuando lo carguemos.
 
