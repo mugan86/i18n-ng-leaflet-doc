@@ -5,15 +5,15 @@ sidebar_position: 2
 
 # Level
 
-Después de trabajar con los controles de posición y los textos de los botones **'+'** y **'-'** En este apartado se va a aprender configurar el nivel de zoom que tendrá el mapa cuando lo carguemos.
+After working with the position controls and the button texts **'+'** and **'-'** In In this section we will learn how to configure the zoom level that the map will have when we load it.
 
-Si no se añade nada, el **nivel del zoom por defecto será 12**.
+If nothing is added, the default **zoom level will be 12**.
 
-Tenemos que tener en consideracción, que el zoom está entre los valores de 0 y 20 (incluidos)
+We have to take into consideration that the zoom is between the values ​​of 0 and 20 (included)
 
-Para añadir el control del zoom, en diferentes niveles de zoom, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"default"** un valor entero entre 0 y 20 (incluidos). Como se ha comentado, si no añadimos nada en esta propiedad, el valor será de 12
+To add the zoom control, at different zoom levels, within the configuration section (**IConfigMap**) we have to add within ** "zoom"** in the property **"default"** an integer value between 0 and 20 (included). As mentioned, if we do not add anything to this property, the value will be 12
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+We must implement it taking into account the following:
 
 ```typescript
 configMap: IConfigMap = {
@@ -23,7 +23,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Adding both in the component and in the template:
 
 ```typescript
 import { Component } from '@angular/core';
