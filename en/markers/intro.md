@@ -1,14 +1,14 @@
 ---
-title: Marcadores
+title: Start
 sidebar_position: 1
 ---
 
-# Marcadores
+# Markers
 
-Ahora que ya [sabemos trabajar con los controles de zoom](../zoom/positions-btn-texts.md), vamos a comenzar a trabajar con los elementos que van a dar más juego a los mapas, **los marcadores**.
+Now that [we know how to work with the zoom controls](../zoom/positions-btn-texts.md), we are going to start working with the elements that will give more play to the maps, **the markers**.
 
-En este apartado aprenderemos lo siguiente:
-* [Añadir un marcador y centrar la cámara en base a este marcador.](./one-marker.md)
-* [Añadir dos ó más marcadores y centrar la cámara en base a los marcadores añadidos.](./two-or-more-markers.md)
-* [Añadir marcadores aleatorios con zoom por defecto y ajustando cámara en base a los marcadores añadidos.](./random-markers-default-zoom.md)
-* [Añadir marcadores con diferentes niveles de zoom y ajuste de cámara con estos elementos.](./random-markers-select-zoom.md)
+In this section we will learn the following:
+* [Add a marker and center the camera based on this marker.](./one-marker.md)
+* [Add two or more markers and center the camera based on the added markers.](./two-or-more-markers.md)
+* [Add random markers with default zoom and adjusting camera based on added markers.](./random-markers-default-zoom.md)
+* [Add markers with different levels of zoom and camera adjustment with these elements. default and adjusting camera based on added markers.](./random-markers-select-zoom.md)
