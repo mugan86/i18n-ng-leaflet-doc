@@ -1,5 +1,5 @@
 ---
-title: Nivel
+title: Level
 sidebar_position: 2
 ---
 
@@ -18,7 +18,7 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
 ```typescript
 configMap: IConfigMap = {
     zoom: {
-      default: 16 // Número entre 0 y 20 incluidos
+      default: 16 // Number between 0 and 20
     },
 };
 ```
@@ -37,22 +37,22 @@ import { IConfigMap } from '@mugan86/ng-leaflet';
 export class AppComponent {
   configMap: IConfigMap = {
     zoom: {
-      position: 16, // Número entre 0 y 20 incluidos
+      position: 16, // Number between 0 and 20
     },
   };
 }
 ```
 
-Aplicando en el HTML
+Apply in the HTML
 
 ```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
-Obteniendo el siguiente resultado:
+The result is:
 
 ![Zoom Levels](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/04-zoom-levels.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+In the next link we found a example demo to check this feature:
 
-[Stackblitz - Niveles de zoom](https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Zoom Levels](https://stackblitz.com/edit/angular-leaflet-zoom-levels?embed=1&file=src/app/app.component.ts&theme=dark)
