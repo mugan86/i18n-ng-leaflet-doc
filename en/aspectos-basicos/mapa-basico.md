@@ -1,10 +1,10 @@
 ---
-title: Mapa Básico
+title: Basic Map
 sidebar_position: 1
 description: Como añadir un mapa con los ajustes básicos y cosas a tener en cuenta
 ---
 
-# Mapa Básico
+# Basic Map
 
 Una vez que ya hemos realizado las instalaciones y configuraciones en el paso anterior, vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
 
