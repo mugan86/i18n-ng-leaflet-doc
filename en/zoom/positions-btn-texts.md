@@ -1,24 +1,24 @@
 ---
-title: Posición / Textos botones
+title: Position / Buttons Text
 sidebar_position: 1
 ---
 
-# Posición / Textos botones
+# Position / Buttons Text
 
-Ahora que ya [sabemos trabajar con lo básico de los mapas](../aspectos-basicos/mapa-basico.md), vamos a comenzar a trabajar con los controles donde nos centramos en el control del zoom.
+Now that [we know how to work with the basics of maps](../basic-aspects/basic-map.md), we are going to start working with the controls where we focus on the control of the zoom.
 
-En este apartado se va a aprender a ubicar el control del zoom en las diferentes opciones y también como habilitar los textos que se asignan a los botones "+" y "-" para aumentar / disminuir el zoom.
+In this section you will learn how to locate the zoom control in the different options and also how to enable the texts that are assigned to the "+" and "-" buttons to increase / decrease the zoom.
 
-### Ubicar en posición
+### Place in position
 
-Para añadir el control del zoom, en diferentes posiciones, dentro del apartado de configuración (**IConfigMap**) tenemos que añadir dentro de **"zoom"** en la propiedad **"position"** los siguientes valores para ubicar el control en el mapa:
+To add the zoom control, in different positions, within the configuration section (**IConfigMap**) we have to add within **"zoom "** in the property **"position"** the following values ​​to locate the control on the map:
 
-* **bottomleft**: Abajo a la izquierda.
-* **bottomright**: Abajo a la derecha.
-* **topright**: Arriba a la derecha.
-* **topleft**: Arriba a la izquierda, valor por defecto.
+* **bottomleft**: Bottom left.
+* **bottomright**: Bottom Right.
+* **topright**: Top Right.
+* **topleft**: Top Left, by default.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+We must implement it taking into account the following:
 
 ```typescript
 configMap: IConfigMap = {
@@ -30,7 +30,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Adding both in the component and in the template:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -52,16 +52,16 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+Apply in the HTML
 
 ```html
 <ng-leaflet-map [mapId]="'zoom_controls'" [config]="configMap"></ng-leaflet>
 ```
 
-Obteniendo el siguiente resultado:
+The result is:
 
 ![Zoom controls Image](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/03-zoom-controls.png)
 
-Y aquí la demos para que podáis probarlo en vivo con las diferentes opciones:
+In the next link we found a example demo to check this feature:
 
-[Stackblitz - Posiciones control Zoom](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
+[Stackblitz - Zoom Control Positions](https://stackblitz.com/edit/angular-leaflet-zoom-positions-titles?embed=1&file=src/app/locations.ts&theme=dark)
