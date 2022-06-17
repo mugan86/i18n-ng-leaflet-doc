@@ -1,31 +1,31 @@
 ---
 title: Basic Map
 sidebar_position: 1
-description: Como añadir un mapa con los ajustes básicos y cosas a tener en cuenta
+description: How to add a map with the basic settings and things to consider
 ---
 
 # Basic Map
 
-Una vez que ya hemos realizado las instalaciones y configuraciones en el paso anterior, vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
+Once we have already made the installations and configurations in the previous step, we are going to start obtaining the information from the maps, and what better way to start than doing a super easy example where we will only show the map with the basic settings.
 
-Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin añadir nada más.
+To add a map, we need to add the selector **`"ng-leaflet-map"`** without adding anything else.
 
 ```html
 <ng-leaflet-map></ng-leaflet-map>
 ```
 
-Con esto obtendremos un mapa con 100% de ancho y 500px de altura asignándole el id a la capa "map".
+With this we will obtain a map with 100% width and 500px height by assigning the id to the "map" layer.
 
-La opción del id del mapa es personalizada para que si queremos añadir más de un mapa dentro de la página, podamos hacerlo para evitar que no de error y se puedan visualizar más de un mapa. Por defecto, nuestra recomendación es añadir un id diferente a "map"
+The map id option is customized so that if we want to add more than one map within the page, we can do so to avoid errors and more than one map can be displayed. By default, our recommendation is to add a different id to "map"
 
-Usaremos la siguiente entrada (input) para tener el id personalizado:
+We will use the following input to get the custom id:
 
-* **mapId**: Por defecto, será "map"
+* **mapId**: By default is "map"
 
 ```
 <ng-leaflet-map [mapId]="'basic__example'"></ng-leaflet-map>
 ```
 
-Podremos ver el ejemplo completo a continuación:
+We can see the complete example below:
 
-[Stackblitz - Mapa Básico](https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark)
+[Stackblitz - Basic Map](https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark)
