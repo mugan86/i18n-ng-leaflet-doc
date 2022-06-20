@@ -1,19 +1,19 @@
 ---
-title: Añadir marcador
+title: Add marker item
 sidebar_position: 2
 ---
 
-### Añadir marcador
+### Add marker Item
 
-Para añadir un simple marcador en el mapa, debemos de saber la ubicación del lugar mediante coordenadas geográficas (latitud y longitud) del punto que queremos indicar en nuestro mapa. Si desconocéis este dato, podéis recurrir a diferentes recursos para poder obtener coordenadas geográficas de manera muy fácil. Encontramos ejemplos como:
+To add a simple marker on the map, we must know the location of the place through geographical coordinates (latitude and longitude) of the point that we want to indicate on our map. If you do not know this information, you can resort to different resources to be able to obtain geographic coordinates very easily. We find examples such as:
 * [Google Maps](https://www.google.es/maps)
 * [Openstreetmap](https://www.openstreetmap.org/)
-* [We Go Here](https://wego.here.com/) **(MUY RECOMENDABLE)**
+* [We Go Here](https://wego.here.com/) **(VERY RECOMMENDED)**
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+We must implement it taking into account the following:
 
 ```typescript
-  // Información de la ubicación
+  // Location information
   markers: Array<IMarker> = [
     {
       position: {
@@ -22,13 +22,13 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
       },
     },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // To snap the camera to the added marker
   config?: IConfigMap = {
     fitBounds: true,
   };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Adding both in the component and in the template:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -40,7 +40,7 @@ import { IConfigMap } from '@mugan86/ng-leaflet';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  // Información de la ubicación
+  // Location information
   markers: Array<IMarker> = [
       {
         position: {
@@ -49,7 +49,7 @@ export class AppComponent {
         },
       },
   ];
-  // Para ajustar la cámara al marcador añadido
+  // To snap the camera to the added marker
   config?: IConfigMap = {
       fitBounds: true,
   };
@@ -57,7 +57,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+Apply in the HTML
 
 ```html
 <ng-leaflet-map
@@ -68,10 +68,10 @@ Aplicando en el HTML
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+The result is:
 
 ![Marker with fitbounds](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/05-one-marker-basic-fitbounds.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+In the next link we found a example demo to check this feature:
 
-[Stackblitz - Marcador ajustando la cámara](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
+[Stackblitz - Marker adjusting the camera](https://stackblitz.com/edit/angular-leaflet-map-with-marker?embed=1&file=src/app/app.component.html&theme=dark)
