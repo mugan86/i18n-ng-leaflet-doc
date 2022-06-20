@@ -1,5 +1,5 @@
 ---
-title: Aleatorios y zoom por defecto
+title: Random and default zoom level
 sidebar_position: 4
 ---
 
@@ -40,11 +40,11 @@ Aplicando en el HTML
 </ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+The result is:
 
 ![Random Markers with Default Zoom level](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/07-random-default-zoom.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+In the next link we found a example demo to check this feature:
 
 [Stackblitz - Marcadores aleatorios con zoom por defecto](https://stackblitz.com/edit/angular-leaflet-map-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
 
