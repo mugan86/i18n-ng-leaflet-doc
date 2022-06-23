@@ -1,11 +1,11 @@
 ---
-title: Añadir dos ó más
+title: Add two or more
 sidebar_position: 3
 ---
 
-### Añadir más de un marcador
+### Add more than one bookmark
 
-Para añadir más de un marcador en el mapa, debemos de saber la ubicaciones de cada unos de los puntos que vamos a insertar en el mapa mediante coordenadas geográficas (latitud y longitud). Recordad que tenemos varias opciones propuestas en el punto anterior que os servirá para tener más a mano diferentes ubicaciones.
+To add more than one marker on the map, we must know the location of each of the points that we are going to insert on the map using geographic coordinates (latitude and longitude). Remember that we have several options proposed in the previous point that will help you to have different locations more at hand.
 
 We must implement it taking into account the following:
 
