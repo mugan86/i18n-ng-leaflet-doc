@@ -1,17 +1,17 @@
 ---
-title: Aleatorios y selección zoom
+title: Random and select zoom level
 sidebar_position: 5
 ---
 
-### Añadir marcadores aleatorios seleccionando el nivel del zoom
+### Add random markers by selecting the zoom level
 
-Esta opción es válida para cuando queramos añadir un mapa con una cantidad de marcadores aleatorios en un punto concreto.
+This option is valid for when we want to add a map with a number of random markers at a specific point.
 
-Esto servirá para mostrar una demo sin tener que añadir los marcadores a mano de una manera sencilla y sin implementar muchas configuraciones.
+This option is valid for when we want to add a map with a number of random markers at a specific point.
 
-A diferencia del anterior punto, seleccionaremos el nivel del zoom a un valor entre 0 (vista mundial) y 20 (lo más cercano), que será el establecido por defecto.
+Unlike the previous point, we will select the zoom level to a value between 0 (world view) and 20 (closest), which will be the default.
 
-Lo debemos de implementar teniendo en cuenta lo siguiente:
+We must implement it taking into account the following:
 
 ```typescript
     randomMarkers = true;
@@ -23,10 +23,9 @@ Lo debemos de implementar teniendo en cuenta lo siguiente:
     };
 ```
 
-Añadiendo tanto en el componente como en el template:
+Adding both in the component and in the template:
 
 ```typescript
-,
 import { Component, VERSION } from '@angular/core';
 
 @Component({
@@ -69,7 +68,7 @@ export class AppComponent {
 
 ```
 
-Aplicando en el HTML
+Apply in the HTML
 
 ```html
     <!-- Zoom level = 12 (default)-->
@@ -106,11 +105,11 @@ Aplicando en el HTML
 
 ```
 
-Obteniendo el siguiente resultado:
+The result is:
 
 ![Random Markers with select Zoom level](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/08-random-select-zoom.png)
 
-Y aquí la demo para que podáis probarlo en vivo con las diferentes opciones:
+In the next link we found a example demo to check this feature:
 
-[Stackblitz - Marcadores aleatorios seleccionando nivel de zoom](https://stackblitz.com/edit/angular-leaflet-zoom-levels-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Random markers by selecting zoom level](https://stackblitz.com/edit/angular-leaflet-zoom-levels-random-markers?embed=1&file=src/app/app.component.ts&theme=dark)
 
