@@ -5,7 +5,7 @@ sidebar_position: 1
 
 # Position / Buttons Text
 
-Now that [we know how to work with the basics of maps](../basic-aspects/basic-map.md), we are going to start working with the controls where we focus on the control of the zoom.
+Now that we [know how to work with the basics of maps](../aspectos-basicos/mapa-basico.md), we are going to start working with the controls where we focus on the zoom control.
 
 In this section you will learn how to locate the zoom control in the different options and also how to enable the texts that are assigned to the "+" and "-" buttons to increase / decrease the zoom.
 
