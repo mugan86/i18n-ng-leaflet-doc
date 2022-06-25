@@ -22,7 +22,7 @@ Id pertsonalizatua izateko hurrengo sarrera (input) erabiliko dugu:
 
 * **mapId**: Era lehenetsian "map" izango da
 
-```
+```html
 <ng-leaflet-map [mapId]="'basic__example'"></ng-leaflet-map>
 ```
 

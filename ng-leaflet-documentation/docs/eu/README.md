@@ -18,7 +18,7 @@ Aurreko puntuan ikusitakoa kontutan hartuta, hurrengo pausoak burutu beharko dit
 
 Hurrengo agindua exekutatu:
 
-```
+```bash
 npm i @mugan86/ng-leaflet
 ```
 
@@ -30,7 +30,7 @@ Mapen funtzionalitateekin lan egin behar dugun atalean, **"NgLeafletModule" modu
 
 Modu honetan konfigurazio aurruntena burutzen ari gara. Aurrera egin ahala konfigurazio globala nola ezarri ahal den azalduko da, eman beharreko pauso guztiekin. Honela era lehenetsian guk nahi dugun konfigurazio zehatz bat izango dugu mapa guztietan erakusteko.
 
-```
+```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -51,13 +51,13 @@ Paketea instalatzean kontuta eduki beharko dugu **`"@mugan86/ng-leaflet"`** dire
 
 Fitxategia hemen aurkituko da:
 
-```
+```bash
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
 **`"styles.css"`** fitxategian honela gehituko dugu:
 
-```
+```bash
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
