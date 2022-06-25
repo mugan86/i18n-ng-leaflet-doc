@@ -18,7 +18,7 @@ Having as reference the previous link, for install and configure the package wit
 
 Execute the following command:
 
-```
+```bash
 npm i @mugan86/ng-leaflet
 ```
 
@@ -30,7 +30,7 @@ In the part of the application that we are going to use it, we need to add the m
 
 In this way we are creating a basic configuration. Later, we are going to explain how to implement a global configuration saving us time in order to not been adding over and over the configuration that are we going to use by default on this map.
 
-```
+```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -39,10 +39,6 @@ import { NgLeafletModule } from '@mugan86/ng-leaflet';
 
 @NgModule({
   imports: [BrowserModule, NgLeafletModule.forRoot()],
-  declarations: [AppComponent],
-  bootstrap: [AppComponent],
-})
-export class AppModule {} [BrowserModule, NgLeafletModule.forRoot()],
   declarations: [AppComponent],
   bootstrap: [AppComponent],
 })
@@ -55,13 +51,13 @@ Keep in mind that when you have installed the package, this will add the **`"@mu
 
 The file is located in:
 
-```
+```bash
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
 We can add it in our **`"styles.css"`** file like this:
 
-```
+```bash
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
