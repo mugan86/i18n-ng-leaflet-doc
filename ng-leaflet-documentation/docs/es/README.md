@@ -31,7 +31,7 @@ En el apartado que vayamos a usar la funcionalidad, debemos de añadir el módul
 
 De esta manera estaremos haciendo la configuración básica, más adelante se explicará como especificar las configuraciones para implementar la configuración global para no tener que estar añadiendo una y otra vez las configuraciones que usaremos en el mapa por defecto.
 
-```
+```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -52,17 +52,17 @@ Tenemos que tener en cuenta que cuando hemos instalado el paquete, se añadirá 
 
 El fichero está ubicado en:
 
-```
+```bash
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
 Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
 
-```
+```bash
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
+Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](./aspectos-basicos/mapa-basico.md).
 
 ### Estructura para configuraciones
 

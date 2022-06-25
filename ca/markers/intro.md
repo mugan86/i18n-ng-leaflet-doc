@@ -1,7 +1,8 @@
 ---
-title: Inicio
+title: Marcadores
 sidebar_position: 1
 ---
+
 # Marcadores
 
 Ahora que ya [sabemos trabajar con los controles de zoom](../zoom/positions-btn-texts.md), vamos a comenzar a trabajar con los elementos que van a dar más juego a los mapas, **los marcadores**.
