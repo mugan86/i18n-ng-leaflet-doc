@@ -1,14 +1,14 @@
 ---
-title: Mapa Básico
+title: Mapa bàsic
 sidebar_position: 1
-description: Como añadir un mapa con los ajustes básicos y cosas a tener en cuenta
+description: Com afegir un mapa amb ajustaments bàsics i aspectes a tenir en compte
 ---
 
-# Mapa Básico
+# Mapa Bàsic
 
-Una vez que ya hemos realizado las instalaciones y configuraciones en el paso anterior, vamos a comenzar obteniendo la información de los mapas, y que mejor que empezar haciendo un ejemplo super fácil donde únicamente mostraremos el mapa con los ajustes básicos.
+Una vegada que hem realitzat les instal·lacions i configuracions en el pas anterior, hem de començar obtenint la informació dels mapes, i que millor que començar fen un exemple superfàcil on únicament mostrarem el mapa amb ajustaments bàsics.
 
-Para añadir un mapa, tenemos que añadir el selector **`"ng-leaflet-map"`** sin añadir nada más.
+Per afegir un mapa, hem d'afegir el selector **`"ng-leaflet-map"`** sense afegir res més.
 
 ```html
 <ng-leaflet-map></ng-leaflet-map>
