@@ -14,18 +14,18 @@ Per afegir un mapa, hem d'afegir el selector **`"ng-leaflet-map"`** sense afegir
 <ng-leaflet-map></ng-leaflet-map>
 ```
 
-Con esto obtendremos un mapa con 100% de ancho y 500px de altura asignándole el id a la capa "map".
+Amb això obtindrem un mapa amb 100% d'ample i 500px d'altura assignen-li el id a la capa "map".
 
-La opción del id del mapa es personalizada para que si queremos añadir más de un mapa dentro de la página, podamos hacerlo para evitar que no de error y se puedan visualizar más de un mapa. Por defecto, nuestra recomendación es añadir un id diferente a "map"
+L'opció del id del mapa és personalitzada perquè si volem afegir més d'un mapa dintre de la pàgina, podem fer-ho per evitar que no doni error i és puguin visualitzar més d'un mapa. Per defecte, nostra recomanació és afegir un id diferent a "map"
 
-Usaremos la siguiente entrada (input) para tener el id personalizado:
+Utilitzarem la següent entrada (input) per tenir el id personalitzat:
 
-* **mapId**: Por defecto, será "map"
+* **mapId**: Per defecte, serà "map"
 
 ```
 <ng-leaflet-map [mapId]="'basic__example'"></ng-leaflet-map>
 ```
 
-Podremos ver el ejemplo completo a continuación:
+Podrem veure l'exemple complet a continuació:
 
-[Stackblitz - Mapa Básico](https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark)
+[Stackblitz - Mapa Bàsic](https://stackblitz.com/edit/angular-leaflet-map-basic?embed=1&file=src/app/app.component.html&theme=dark)
