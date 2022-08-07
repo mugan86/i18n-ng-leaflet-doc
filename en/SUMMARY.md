@@ -28,3 +28,5 @@ sidebar_position: 1
 * [Basic markers](markers/two-or-more-markers.md)
 * [Random markers with zoom by default](markers/random-markers-default-zoom.md)
 * [Random markers with zoom level selection](markers/random-markers-select-zoom.md)
+* [Seleccionar color del marcador](markers/marker-with-select-color.md)
+
