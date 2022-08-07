@@ -1,17 +1,17 @@
 ---
-title: Centrar en ubicación
+title: Centrar en ubicació
 sidebar_position: 3
 description: >-
-  Una vez que ya tenemos controlados los dos primeros aspectos, vamos a especificar el punto en coordenadas donde queremos ubicarnos
+  Una vegada ja tenim controlats els dos primers aspectes, especifiquem el punt amb coordenades on volem ubicar-nos
 ---
 
-# Centrar en ubicación
+# Centrar en ubicació
 
-En este momento queremos centrar la cámara del mapa en unas coordenadas que nosotros queramos especificar.
+En aquest moment volem centrar la càmera del mapa amb unes coordenades que nosaltres volem especificar.
 
-Hasta el momento, si no añadimos esta información utilizará una coordenadas por defecto teniendo como referencia un array con dos números en los que estarán la latitud y la longitud.
+Fins el moment, si no afegim aquesta informació s´utilitzarà unes coordenades per defecte tenint com a a referència un array amb dos nombres en els quals estarán la latitud i la longitud.
 
-Las coordenadas lo tenemos que introducir en la siguiente estructura de la propiedad:
+Les coordenades les hem d'introduir amb la següent estructura de la propietat:
 
 ```typescript
 configMap: IConfigMap = {
@@ -20,7 +20,7 @@ configMap: IConfigMap = {
 };
 ```
 
-Con esta información añadida en el componente:
+Amb aquesta informació afegida al component:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -43,7 +43,7 @@ export class AppComponent {
 }
 ```
 
-Añadiendo la información  en el HTML:
+Afegint la informació a l'HTML:
 
 ```html
 <ng-leaflet-map
@@ -52,11 +52,11 @@ Añadiendo la información  en el HTML:
 ></ng-leaflet-map>
 ```
 
-Obteniendo el siguiente resultado:
+Obtenint el següent resultat:
 
 ![Map in Center](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/02-mapa-center.png)
 
-Y aquí la demo que podéis usar para probarlo y jugar con ello:
+I aquí la demo que podeu utilitzar per provar-ho i experimentar:
 
-[Stackblitz - Centrar en ubicación](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Centrar en ubicació](https://stackblitz.com/edit/angular-leaflet-map-basic-set-center-position?embed=1&file=src/app/app.component.ts&theme=dark)
 

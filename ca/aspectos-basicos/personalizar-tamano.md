@@ -1,13 +1,13 @@
 ---
-title: Personalizar tamaño
+title: Personalitzar mida
 sidebar_position: 2
 description: >-
-  En este punto se va ha explicar como modificar el tamaño del mapa con el tamaño que seleccionemos modificando el que tenemos por defecto
+  En aquest punt s'explicarà com modificar la mida del mapa amb la mida que seleccionem modificant el que tenim per defecte
 ---
 
-# Personalizar tamaño
+# Personalitzar mida
 
-Si no añadimos la información para especificar el tamaño del mapa, el tamaño que tendrá será el especificado en el paso anterior, concretamente 100% de ancho y 500px de altura.
+Si no afegim la informació per especificar la mida del mapa, la mida que tindrà sirà l'especificat en el pas anterior, concretament 100% d'ample i 500px d'alt.
 
 Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el siguiente @Input con la propiedad size que tendrá la siguiente estructura:
 
