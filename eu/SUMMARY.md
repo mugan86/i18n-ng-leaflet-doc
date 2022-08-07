@@ -28,3 +28,5 @@ sidebar_position: 1
 * [Oinarrizko laster-markagailuak](markers/two-or-more-markers.md)
 * [Ausaszko laster-markagailuak era lehenetsian dagoen zoom mailan](markers/random-markers-default-zoom.md)
 * [Ausazko laster-markagailuak aukeratutako zoom mailan](markers/random-markers-select-zoom.md)
+* [Seleccionar color del marcador](markers/marker-with-select-color.md)
+
