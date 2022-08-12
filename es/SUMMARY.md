@@ -29,3 +29,11 @@ sidebar_position: 1
 * [Marcadores aleatorios con selección de nivel de zoom](markers/random-markers-select-zoom.md)
 * [Seleccionar color del marcador](markers/marker-with-select-color.md)
 
+## Control de capas
+
+* [Introducción](layers/intro.md)
+* [Capa por defecto](layers/default-layer.md)
+* [Capas Base - Base Layers](layers/base-layers.md)
+* [Capas Base / Superposición - Baselayers / Overlayers](layers/base-over-layers.md)
+* [Capas Base / Superposición - Baselayers / Overlayers - Selección por defecto](layers/base-over-layers-select.md)
+

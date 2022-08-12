@@ -1,6 +1,6 @@
 ---
 title: Capas Base y superposición	- Selección
-sidebar_position: 4
+sidebar_position: 5
 ---
 # Capas Base y superposición - Selección
 

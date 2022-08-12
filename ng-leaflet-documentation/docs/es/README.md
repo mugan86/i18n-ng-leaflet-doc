@@ -62,7 +62,7 @@ Podemos añadirlo en el fichero **`"styles.css"`** de la siguiente manera:
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](./aspectos-basicos/mapa-basico.md).
+Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
 ### Estructura para configuraciones
 
