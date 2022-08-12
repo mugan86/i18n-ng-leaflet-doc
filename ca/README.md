@@ -30,7 +30,7 @@ En l'apartat que volem utilitzar la funcionalitat, hem d'agregar el mòdul **"Ng
 
 D'aquesta manera estarem fent la configuració bàsica, més endavant s'explicarà com especificar les configuracions per implementar la configuració global per no haver d'estar agrega'n una vegada i una altra les configuracions que utilitzarem en el mapa per defecte.
 
-```
+```typescript
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -51,17 +51,17 @@ Hem de tenir en compte que quan hem instal·lat el paquet, s'agregarà la carpet
 
 El fitxer està ubicat en:
 
-```
+```bash
 node_modules/@mugan86/ng-leaflet/assets/styles/common.css
 ```
 
 Podem agregar-lo en el fitxer **`"styles.css"`** de la manera següent:
 
-```
+```bash
 @import url('./../node_modules/@mugan86/ng-leaflet/assets/styles/common.css');
 ```
 
-Amb aquests ajustaments, podem començar a treballar amb les funcionalitats dels mapes [a partir d'aquesta referència](aspectos-basicos/mapa-basico.md).
+Con estos ajustes, podemos empezar a trabajar con las funcionalidades de los mapas [a partir de esta referencia](aspectos-basicos/mapa-basico.md).
 
 ### Estructura per configuracions
 
