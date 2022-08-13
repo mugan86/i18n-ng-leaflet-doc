@@ -65,6 +65,15 @@ export class AppComponent {
   };
 }
 ```
+
+Y en el HTML lo implementamos de la siguiente manera:
+```html
+<ng-leaflet-map
+  [mapId]="'default__layer-map'"
+  [config]="configMap"
+>
+</ng-leaflet-map>
+```
 Nos mostrará algo como lo podéis ver a continuación:
 ![Map Default - OpenTopoMap](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/10-default-opentopomap.png)
 
