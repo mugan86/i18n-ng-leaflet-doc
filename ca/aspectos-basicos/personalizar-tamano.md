@@ -9,7 +9,7 @@ description: >-
 
 Si no afegim la informació per especificar la mida del mapa, la mida que tindrà sirà l'especificat en el pas anterior, concretament 100% d'ample i 500px d'alt.
 
-Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el siguiente @Input con la propiedad size que tendrá la siguiente estructura:
+A part de mapId que serveix per a especificar l´id del mapa, afegim el següent @Input amb la propietat size que tindrà la següent estructura:
 
 ```typescript
 {
@@ -18,7 +18,7 @@ Aparte de mapId que sirve para especificar el id del mapa, vamos a añadir el si
 }
 ```
 
-Lo podemos añadir directamente en el template o desde el componente:
+El podem afegir directament al template o des de el component:
 
 ```typescript
 import { Component } from '@angular/core';
@@ -49,10 +49,10 @@ Y aplicando directamente esa configuración en el template y usando el valor de 
 ></ng-leaflet-map>
 ```
 
-Cuyo resultado visual será algo como esto:
+El resultat visual serà una cosa com això:
 
-![Map Size](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/01-mapa-tama%C3%B1o.png)
+![Mida del mapa](https://raw.githubusercontent.com/mugan86/i18n-ng-leaflet-doc/master/.gitbook/assets/01-mapa-tama%C3%B1o.png)
 
-Tal y como podremos ver en la siguiente demo.
+Tal com podem veure a la següent demo.
 
-[Stackblitz - Personalizando Tamaño](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?embed=1&file=src/app/app.component.ts&theme=dark)
+[Stackblitz - Personalitzan la mida](https://stackblitz.com/edit/angular-leaflet-map-basic-custom-size?embed=1&file=src/app/app.component.ts&theme=dark)
