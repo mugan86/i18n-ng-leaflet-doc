@@ -28,13 +28,13 @@ sidebar_position: 1
 * [Basic markers](markers/two-or-more-markers.md)
 * [Random markers with zoom by default](markers/random-markers-default-zoom.md)
 * [Random markers with zoom level selection](markers/random-markers-select-zoom.md)
-* [Seleccionar color del marcador](markers/marker-with-select-color.md)
+* [Colour selection markers](markers/marker-with-select-color.md)
 
-## Control de capas
+## Layer Controls
 
-* [Introducción](layers/intro.md)
-* [Capa por defecto](layers/default-layer.md)
-* [Capas Base - Base Layers](layers/base-layers.md)
-* [Capas Base / Superposición - Baselayers / Overlayers](layers/base-over-layers.md)
-* [Capas Base / Superposición - Baselayers / Overlayers - Selección por defecto](layers/base-over-layers-select.md)
+* [Introduction](layers/intro.md)
+* [Default layer](layers/default-layer.md)
+* [Base Layers](layers/base-layers.md)
+* [Base layers/overlays](layers/base-over-layers.md)
+* [Base layers/overlays - default selection](layers/base-over-layers-select.md)
 
