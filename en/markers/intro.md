@@ -12,4 +12,4 @@ In this section we will learn the following:
 * [Add two or more markers and center the camera based on the added markers.](./two-or-more-markers.md)
 * [Add random markers with default zoom and adjusting camera based on added markers.](./random-markers-default-zoom.md)
 * [Add markers with different levels of zoom and camera adjustment with these elements. default and adjusting camera based on added markers.](./random-markers-select-zoom.md)
-* [Marcador con selección de color](./marker-with-select-color.md)
+* [Colour selection marker](./marker-with-select-color.md)
